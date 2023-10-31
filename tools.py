@@ -119,7 +119,7 @@ def trans_to_df(object):
                         for j in range(0, len(casos) - len(end_words)):
                             data.append([head, origin, plat, casos[j], end_words, case.attrs['href']])
                     except:
-                        print('ERROR en la transformación a DF linea -')
+                        print('ERROR en la transformación a DF linea ', head, origin, i)
                         pass
 
                 elif len(case)>3:
@@ -153,12 +153,6 @@ def extr_country(object):
 
 def insertar_en_bbdd(df, usuario, contraseña, host, database, table):
 
-    # Cambia los valores de usuario, contraseña y host según tu configuración
-    #usuario = "root"
-    #contraseña = "gurriato"
-    #host = "localhost"  # o la IP donde está alojada tu base de datos
-    #database = "Oryx"
-
     # Crear conexión a la base de datos
     engine = create_engine(f"mysql+pymysql://{usuario}:{contraseña}@{host}/{database}")
     try:
@@ -169,6 +163,15 @@ def insertar_en_bbdd(df, usuario, contraseña, host, database, table):
         return "Insertado correctamente"
     except Exception as e:
         return f"Ocurrió un error: {e}"
+
+def clean_url(url):
+    # Eliminar espacios al principio y al final
+    url = url.strip()
+
+    # Reemplazar tabulaciones con espacios vacíos
+    url = url.replace('\t', '')
+
+    return url
 
 
 def extract_tables_from_url2(url):
