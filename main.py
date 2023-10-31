@@ -23,7 +23,6 @@ import configparser
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 
-
 column_order = ['owner', 'origen', 'weapon', 'platform', 'total', 'number', 'Status', 'url']
 
 # Russia scrap

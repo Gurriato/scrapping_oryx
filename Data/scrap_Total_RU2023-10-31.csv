@@ -1,5 +1,5 @@
 ,Type,Total,Destroyed,Damaged,Abandoned,Captured
-1,Tanks,2437,1591,139,157,550
+1,Tanks,2438,1592,139,157,550
 2,Armoured Fighting Vehicles,1024,686,29,40,269
 3,Infantry Fighting Vehicles,2957,2067,115,159,616
 4,Armoured Personnel Carriers,368,248,11,17,92
@@ -11,7 +11,7 @@
 10,Artillery Support Vehicles And Equipment,109,55,0,2,52
 11,Towed Artillery,328,188,34,5,101
 12,Self-Propelled Artillery,585,439,32,7,107
-13,Multiple Rocket Launchers,299,223,21,2,53
+13,Multiple Rocket Launchers,300,224,21,2,53
 14,Anti-Aircraft Guns,19,5,0,0,14
 15,Self-Propelled Anti-Aircraft Guns,25,14,1,2,8
 16,Surface-To-Air Missile Systems,175,122,25,4,24

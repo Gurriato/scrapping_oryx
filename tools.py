@@ -80,7 +80,7 @@ def trans_to_df(object):
     data = [['weapon', 'origen', 'platform', 'number', 'Status', 'url']]
 
     total_pistol = ['type']
-
+    strange=0
     for list in object:
         head = list.find_previous('h3').get_text(strip=True).split("(")[0]
         try:
@@ -118,12 +118,45 @@ def trans_to_df(object):
                                 break
                         for j in range(0, len(casos) - len(end_words)):
                             data.append([head, origin, plat, casos[j], end_words, case.attrs['href']])
-                    except:
-                        print('ERROR en la transformación a DF linea ', head, origin, i)
-                        pass
+                    except Exception as d:
+                        print(f"Error looking for span: {d}")
+                        for span in case:
+                            try:
+                                a_tag = span.find('a')
+                                if (a_tag != -1) & (a_tag is not None):
+                                    href = a_tag.attrs['href']
+                                    text = a_tag.get_text().replace("(", "").replace(")", "").replace(", and ", "#").replace(",", "#").replace(' and', "#").split("#")
+                                    end_words = []
+                                    text = convert_to_int(text)
+                                    for item in reversed(text):
+                                        if not isinstance(item, int):
+                                            end_words.insert(0, item)
+                                        else:
+                                            break
+                                    for j in range(0, len(text) - len(end_words)):
+                                        data.append([head, origin, plat, text[j], end_words, href])
+                                else:
+                                    pass
+                            except Exception as e:
+                                print(f"Error processing span: {e}")
+                                pass
 
-                elif len(case)>3:
-                    plat = case.text.replace("\xa0", "")
+                elif len(case) > 3:
+                    try:
+                        plat = case.text.replace("\xa0", "")
+                    except Exception as e:
+                        print(f"Error procesing strange things: {e}")
+                        print("---> case where it happened --> ", case)
+                        if "1 Unknown T-54/55" in case.text:
+                            data.append(["Tanks", ['https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png'], "1 Unknown T-54/55", 1, ['destroyed'], 'https://twitter.com/CalibreObscura/status/1670510694838546436'])
+                        else:
+                            strange= strange + 1
+                            print("Not managed strange cases = ", strange)
+                elif len(case) <= 3:
+                    pass
+                else:
+                    strange = strange + 1
+                    print("Not managed strange cases = ", strange)
 
 
     return pd.DataFrame(data, columns=data.pop(0)), total_pistol
