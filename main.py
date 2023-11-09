@@ -1,37 +1,68 @@
 # -*- coding: utf-8 -*-
-"""
-Este script tiene como objetivo raspar información de dos artículos específicos
-sobre equipos de origen ruso y ucraniano. La información se extrae, transforma
-y almacena en DataFrames de pandas.
 
-Created on Wed Aug 23 14:24:10 2023
-@author: gblancom
-"""
 
 import pandas as pd
 import gc
 import tools
 import json
 import datetime as dt
-import re
-from ydata_profiling import ProfileReport
-import matplotlib
+import hashlib
+import logging
 
 
-import configparser
-def scrappingOryx():
-    import hashlib
-    with open('config.json', 'r') as config_file:
-        config = json.load(config_file)
+def generate_short_hash(row):
+    hash_input = '_'.join([str(row['weapon']), str(row['platform']), str(row['number']), str(row['url'])])
+    return "_"+str(hashlib.sha256(hash_input.encode()).hexdigest()[:20])
 
-    def generate_short_hash(row):
-        hash_input = '_'.join([str(row['weapon']), str(row['platform']), str(row['number']), str(row['url'])])
-        return hashlib.sha256(hash_input.encode()).hexdigest()[:20]  #
+
+def scrappingOryx(urlRU, urlUA):
+    """
+    Scrapes equipment loss data from specified URLs and stores the data in a database and CSV files.
+
+    This function performs web scraping on two specific URLs, each corresponding to equipment losses for Russia
+    and Ukraine. It processes the scraped HTML to extract meaningful data and organizes it into pandas DataFrames.
+    The data is then cleaned, transformed, and inserted into a specified database. Additionally, the raw and
+    aggregated data are saved as CSV files.
+
+    The function relies on a configuration file named 'config.json' for database connection parameters and uses
+    custom tools from a module named 'tools' to perform various steps of the scraping and data transformation process.
+
+    Parameters:
+        - urlRU: string
+            url pointing to the Russian blog entry
+        - urlUA: string
+            url pointing to the Ucranian blog entry
+    Returns:
+    - tuple: (pd.DataFrame, pd.Series, pd.Series)
+        A tuple containing three elements:
+        1. A pandas DataFrame with the combined scraped data for both Russia and Ukraine.
+        2. A pandas Series containing the aggregated total equipment losses for Ukraine.
+        3. A pandas Series containing the aggregated total equipment losses for Russia.
+
+    Raises:
+    - HTTPError: If an HTTP request to one of the specified URLs fails.
+    - ValueError: If there are issues with data type conversions or if data extraction regex patterns do not match.
+
+    Example Usage:
+    >>> scraped_data, total_ua, total_ru = scrappingOryx()
+    >>> print(scraped_data)
+    >>> print(total_ua)
+    >>> print(total_ru)
+
+    Note:
+    - The 'config.json' file must be present in the same directory as this function and contain the necessary database
+      credentials and parameters.
+    - The function assumes the structure of the web pages at the given URLs remains consistent and that the data follows
+      the patterns expected by the regex expressions used for extraction.
+    - The function uses several utility functions (such as 'extract_lists_from_article', 'trans_to_df', 'extr_country',
+      'clean_url', and 'insert_in_db') which should be defined in the 'tools' module.
+    - The function uses the logging module to log information and errors during execution.
+    - The 'gc.collect()' call is used to force garbage collection and free memory.
+    """
 
     column_order = ['owner', 'origen', 'weapon', 'platform', 'total', 'number', 'Status', 'url']
 
     # Russia scrap
-    urlRU = 'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html'
     scraped_object = tools.extract_lists_from_article(urlRU)
     RU, total_RU = tools.trans_to_df(scraped_object)
     RU['origen'] = RU['origen'].apply(tools.extr_country)
@@ -40,7 +71,6 @@ def scrappingOryx():
     RU = RU[column_order]
 
     # Ucrania scrap
-    urlUA = 'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html'
     scraped_object = tools.extract_lists_from_article(urlUA)
     UA, total_UA = tools.trans_to_df(scraped_object)
     UA['origen'] = UA['origen'].apply(tools.extr_country)
@@ -58,14 +88,8 @@ def scrappingOryx():
     gc.collect()
 
     to_file['primary_key'] = to_file.apply(generate_short_hash, axis=1)
-
-    to_report = to_file.copy()
-    to_report['Status'] = to_report['Status'].astype(str)
-    to_report['origen'] = to_report['origen'].astype(str)
-    outcome = tools.insertar_en_bbdd(to_report, config['usuario'], config['pass'], config['host'], config['database'], 'bajas')
-    print(outcome)
     now = dt.datetime.now()
-    to_file.to_csv('./Data/scrap_raw_' + str(now.date()) + '.csv')
+    to_file.to_csv('./Data/scrap_raw/scrap_raw_' + str(now.date()) + '.csv')
 
     # Transforming Totals
     regex = r"^(.+?)\s*\((\d+), of which( destroyed: (\d+))?(, damaged: (\d+))?(, abandoned: (\d+))?(, captured: (\d+))?\)$"
@@ -76,7 +100,6 @@ def scrappingOryx():
     total_RU = total_RU[1:]
     total_RU.fillna(0, inplace=True)
     total_RU[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']] = total_RU[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']].astype(int)
-    outcome = tools.insertar_en_bbdd(total_RU, config['usuario'], config['pass'], config['host'], config['database'], 'totals_RU')
     total_RU.to_csv('./Data/scrap_Total_RU' + str(now.date()) + '.csv')
 
     total_UA = pd.Series(total_UA)
@@ -86,33 +109,102 @@ def scrappingOryx():
     total_UA = total_UA[1:]
     total_UA.fillna(0, inplace=True)
     total_UA[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']] = total_UA[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']].astype(int)
-    outcome = tools.insertar_en_bbdd(total_UA, config['usuario'], config['pass'], config['host'], config['database'], 'totals_UA')
     total_UA.to_csv('./Data/scrap_Total_UA_' + str(now.date()) + '.csv')
     return to_file, total_UA, total_RU
+
+
 def dataReport():
+    """
+    auxiliary for creating pandas profiling report
+    :return: 
+    """
+    
     from ydata_profiling import ProfileReport
     report = pd.read_csv(r'.\Data\scrap_raw.csv')
     profile = ProfileReport(report, title="Oryx Data Report")
     profile.to_file(r'.\informe.html')
 
-def comparar_dataframes(df_a, df_b, df_excepciones):
-    # Convertir las primary keys de excepciones en un set para rápida referencia
-    excepciones_a = set(df_excepciones['primary_key_a'])
-    excepciones_b = set(df_excepciones['primary_key_b'])
 
-    # Filtrar df_b para excluir las filas que tienen primary keys en el set de excepciones
-    df_b_filtrado = df_b[~df_b['primary_key'].isin(excepciones_b)]
+def compare_dataframes(df_a, df_b, df_excepciones):
+    """
+    Compares two dataframes to identify the differences, excluding any exceptions provided.
 
-    # Identificar las filas en df_b que no están en df_a
-    df_a_keys = set(df_a['primary_key'])
-    df_b_filtrado = df_b_filtrado[~df_b_filtrado['primary_key'].isin(df_a_keys)]
+    This function takes two dataframes that are expected to have a 'primary_key' column and compares them to find
+    records that are unique to each dataframe. It also accepts a third dataframe containing exceptions which lists
+    primary keys that should be excluded from the comparison in each dataframe.
 
-    return df_b_filtrado
+    Parameters:
+    - df_a: pd.DataFrame
+        The first dataframe to be compared, considered as the base dataframe.
+    - df_b: pd.DataFrame
+        The second dataframe to be compared, considered as the new dataframe.
+    - df_excepciones: pd.DataFrame
+        A dataframe containing two columns 'primary_key_base' and 'primary_key_new' which list the primary keys
+        that should be excluded from the comparison in df_a and df_b respectively.
 
-# Aplicar la función a los DataFrames de ejemplo
+    Returns:
+    - tuple of pd.DataFrame
+        A tuple containing two dataframes:
+        1. df_a_difference: Dataframe containing the records that are unique to df_a after filtering out exceptions.
+        2. df_b_difference: Dataframe containing the records that are unique to df_b after filtering out exceptions.
+
+    Example Usage:
+    >>> df_base = pd.DataFrame({'primary_key': [1, 2, 3], 'data': ['a', 'b', 'c']})
+    >>> df_new = pd.DataFrame({'primary_key': [2, 3, 4], 'data': ['b', 'c', 'd']})
+    >>> df_exceptions = pd.DataFrame({'primary_key_base': [3], 'primary_key_new': [4]})
+    >>> df_base_diff, df_new_diff = compare_dataframes(df_base, df_new, df_exceptions)
+    >>> print(df_base_diff)
+    >>> print(df_new_diff)
+
+    Note:
+    - The function assumes that 'primary_key' columns in df_a and df_b are unique identifiers for their respective records.
+    - The function does not handle cases where the 'primary_key' columns have duplicates within the same dataframe.
+    - The exceptions are applied to each dataframe separately, based on the relevant column in df_excepciones.
+    """
+    exceptions_a = set(df_excepciones['primary_key_base'])
+    exceptions_b = set(df_excepciones['primary_key_new'])
+    df_a_filt = df_a[~df_a['primary_key'].isin(exceptions_a)]
+    df_b_filt = df_b[~df_b['primary_key'].isin(exceptions_b)]
+    df_b_keys = set(df_b_filt['primary_key'])
+    df_a_difference = df_a_filt[~df_a_filt['primary_key'].isin(df_b_keys)]
+    df_a_keys = set(df_a_filt['primary_key'])
+    df_b_difference = df_b_filt[~df_b_filt['primary_key'].isin(df_a_keys)]
+    return df_a_difference, df_b_difference
+
+
+def pushToDB(base, totalRU, totalUA):
+    with open('config.json', 'r') as config_file:
+        config = json.load(config_file)
+
+    base['Status'] = base['Status'].astype(str)
+    base['origen'] = base['origen'].astype(str)
+    outcome = tools.insert_in_db(base, config['usuario'], config['pass'], config['host'], config['database'], 'bajas')
+    logging.info(outcome)
+    outcome = tools.insert_in_db(totalRU, config['usuario'], config['pass'], config['host'], config['database'], 'totals_RU')
+    logging.info(outcome)
+    outcome = tools.insert_in_db(total_UA, config['usuario'], config['pass'], config['host'], config['database'],
+                             'totals_UA')
+    logging.info(outcome)
+
 
 if __name__ == '__main__':
-    to_file, total_UA, total_RU = scrappingOryx()
+    logging.basicConfig(filename='./oryxScrapper.log', level=logging.INFO,
+                        format='%(asctime)s:%(levelname)s:%(message)s')
+    urlRU = 'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html'
+    urlUA = 'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html'
+    to_file, total_UA, total_RU = scrappingOryx(urlRU,urlUA)
     exceptions = pd.read_csv('./Data/exceptions.csv', sep=';')
-    base = pd.read_csv('./Data/base.csv', sep=';')
-    df_resultado = comparar_dataframes(base, to_file, exceptions) #nuevas lineas a incluir
+    base = pd.read_csv('./Data/base.csv', sep=';', dtype={'total': int, 'number': int, 'primary_key': str})
+    #base['primary_key'] = base.apply(generate_short_hash, axis=1)
+    df_results_base, df_results_new = compare_dataframes(base, to_file, exceptions)  #nuevas lineas a incluir
+    now = dt.datetime.now()
+    if df_results_base.shape[0] != 0:
+        df_results_base.to_csv('./Data/diff/excep_base_' + str(now.date()) + '.csv')
+    df_results_new.to_csv('./Data/diff/excep_new_' + str(now.date()) + '.csv')
+    logging.info('New rows added: ' + str(df_results_new.shape[0]))
+    base = pd.concat([base, df_results_new])
+    # Use this line instead of next if you want to see the real count of Oryx
+    #base['total_real'] = base.groupby(['owner', 'weapon', 'platform'])['owner'].transform('size')
+    base['total'] = base.groupby(['owner', 'weapon', 'platform'])['owner'].transform('size')
+    pushToDB(to_file, total_UA, total_RU)
+    base.to_csv('./Data/base.csv', sep=';', index=False)

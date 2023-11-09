@@ -1,46 +1,55 @@
 # -*- coding: utf-8 -*-
-"""
-Este script tiene como objetivo raspar información de dos artículos específicos
-sobre equipos de origen ruso y ucraniano. La información se extrae, transforma
-y almacena en DataFrames de pandas.
-
-Created on Wed Aug 23 14:24:10 2023
-@author: gblancom
-"""
 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import gc
-#import pymysql
 from sqlalchemy import create_engine
 from urllib.parse import unquote
 import re
+import logging
 
 def extract_lists_from_article(url):
     """
-   Extrae listas de artículos a partir de una URL.
+    Fetches an article from the given URL and extracts all unordered (ul) and ordered (ol) lists from it.
 
-   Args:
-   - url (str): La URL del artículo.
+    The function sends an HTTP GET request to the specified URL. If the request is successful, it parses
+    the response content using BeautifulSoup to find the 'article' tag. It then retrieves all 'ul' and 'ol'
+    elements (representing unordered and ordered lists, respectively) within the 'article' element.
 
-   Returns:
-   - list: Las listas extraídas del artículo.
-   - list: Objetos de listas originales para uso adicional.
-   """
-    # Realizar la solicitud a la URL
+    Args:
+    - url: str
+        The URL of the web page from which the article and its lists are to be extracted.
+
+    Returns:
+    - lists: list of bs4.element.Tag
+        A list of BeautifulSoup Tag objects, each representing an unordered or ordered list found within
+        the 'article' element of the web page. If no 'article' element is found, or if there are no lists
+        within the article, an empty list is returned.
+
+    Raises:
+    - HTTPError: If the HTTP request to the given URL fails, an HTTPError is raised with details of the failure.
+
+    Example Usage:
+    >>> article_lists = extract_lists_from_article('https://example.com/some-article')
+    >>> for lst in article_lists:
+    ...     print(lst, end='\n\n')
+
+    Note:
+    - The function assumes that the relevant content is contained within an 'article' tag in the HTML structure
+      of the page at the given URL.
+    - The function will return an empty list if the URL does not point to a valid web page, if the web page does
+      not contain an 'article' tag, or if there are no lists within the found 'article' tag.
+    - The function uses the 'requests' library to fetch the web page content and the 'BeautifulSoup' library for
+      parsing HTML, both of which must be installed and available in the Python environment where this function is used.
+    """
+
     response = requests.get(url)
-    response.raise_for_status()  # Si hay un error, lanza una excepción
-
-    # Parsear el contenido con BeautifulSoup
+    response.raise_for_status()
     soup = BeautifulSoup(response.content, 'html.parser')
-
-    # Encontrar la sección "article"
     article = soup.find('article')
     if not article:
         return []
 
-    # Buscar todas las listas dentro del article
     lists = article.find_all(['ul', 'ol'])
 
     return lists
@@ -48,13 +57,33 @@ def extract_lists_from_article(url):
 
 def convert_to_int(lst):
     """
-    Convierte posibles entradas a enteros, de lo contrario, elimina espacios.
+    Converts elements of a list to integers where possible.
+
+    This function iterates over a list of strings and attempts to convert each element to an integer.
+    If an element cannot be converted (e.g., because it contains non-numeric characters), the function
+    removes any spaces from the string. The processed elements are then stored in a new list, which is
+    returned.
 
     Args:
-    - lst (list): La lista a procesar.
+    - lst: list of str
+        The list of strings to be processed, where some strings are expected to represent integer values.
 
     Returns:
-    - list: Lista procesada.
+    - new_lst: list
+        A new list with the same elements as the input list, where string representations of integers
+        have been converted to actual integers, and strings that could not be converted have had spaces removed.
+
+    Example Usage:
+    >>> original_list = ['123', '45', 'six', '7 8', 'nine ten']
+    >>> converted_list = convert_to_int(original_list)
+    >>> print(converted_list)
+    [123, 45, 'six', '78', 'nineten']
+
+    Note:
+    - This function does not handle strings that represent negative integers, floating-point numbers, or strings
+      containing a mix of digits and letters. Such strings will simply have their spaces removed.
+    - The function will raise a ValueError if the list contains elements that are not strings or if the strings
+      contain characters that are not digits or spaces.
     """
 
     new_lst = []
@@ -69,13 +98,39 @@ def convert_to_int(lst):
 
 def trans_to_df(object):
     """
-    Transforma los datos extraídos en un DataFrame.
+    Transforms a structured list of HTML elements into a pandas DataFrame.
+
+    This function takes a list of HTML elements, each potentially containing nested information about weapons,
+    origins, platforms, numbers, statuses, and URLs. It iterates over each element, extracting and organizing the
+    relevant text and attributes into a structured list. This list is then converted into a pandas DataFrame.
+    Additionally, it collects any encountered weapon type into a separate list.
 
     Args:
-    - object: El objeto que contiene los datos extraídos.
+    - object: list of bs4.element.Tag
+        A list of BeautifulSoup Tag elements, each representing an HTML container with nested information
+        to be extracted.
 
     Returns:
-    - DataFrame: Un DataFrame con los datos procesados.
+    - tuple: (pd.DataFrame, list)
+        A tuple containing two elements:
+        1. A pandas DataFrame with columns corresponding to weapon, origin, platform, number, status, and URL.
+        2. A list of weapon types extracted during the processing of the HTML elements.
+
+    Example Usage:
+    >>> from bs4 import BeautifulSoup
+    >>> html_content = '<html><body>...</body></html>'  # Simplified HTML content
+    >>> soup = BeautifulSoup(html_content, 'html.parser')
+    >>> html_elements = soup.find_all(...)  # A method call that retrieves relevant HTML elements
+    >>> dataframe, weapon_types = trans_to_df(html_elements)
+    >>> print(dataframe)
+    >>> print(weapon_types)
+
+    Note:
+    - This function assumes that the HTML structure is consistent and contains the expected patterns for extracting data.
+      If the HTML structure changes, the function may need to be updated.
+    - It uses exception handling to manage unexpected content or missing attributes, logging warnings, and errors as appropriate.
+    - The function depends on a helper function `convert_to_int` to process numerical data, which is not defined within this function.
+    - Logging is used to track and report errors during processing, with specific logging for 'controlled exceptions' and 'strange cases.'
     """
     data = [['weapon', 'origen', 'platform', 'number', 'Status', 'url']]
 
@@ -97,7 +152,7 @@ def trans_to_df(object):
                         try:
                             origin.append(case.find('img').attrs['src'])
                         except:
-                            print('Process in controlled exception')
+                            logging.warning('Process in controlled exception')
                             problema = case
                             for nested in problema:
                                 try:
@@ -119,7 +174,7 @@ def trans_to_df(object):
                         for j in range(0, len(casos) - len(end_words)):
                             data.append([head, origin, plat, casos[j], end_words, case.attrs['href']])
                     except Exception as d:
-                        print(f"Error looking for span: {d}")
+                        logging.warning(f"Error looking for span: {d}")
                         for span in case:
                             try:
                                 a_tag = span.find('a')
@@ -138,70 +193,122 @@ def trans_to_df(object):
                                 else:
                                     pass
                             except Exception as e:
-                                print(f"Error processing span: {e}")
+                                logging.error(f"Error processing span: {e}")
                                 pass
 
                 elif len(case) > 3:
                     try:
                         plat = case.text.replace("\xa0", "")
                     except Exception as e:
-                        print(f"Error procesing strange things: {e}")
-                        print("---> case where it happened --> ", case)
+                        logging.warning(f"Error procesing strange things: {e}")
+                        logging.warning("---> case where it happened --> ", case)
                         if "1 Unknown T-54/55" in case.text:
                             data.append(["Tanks", ['https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png'], "1 Unknown T-54/55", 1, ['destroyed'], 'https://twitter.com/CalibreObscura/status/1670510694838546436'])
                         else:
                             strange= strange + 1
-                            print("Not managed strange cases = ", strange)
+                            logging.error("Not managed strange cases = ", strange)
                 elif len(case) <= 3:
                     pass
                 else:
                     strange = strange + 1
-                    print("Not managed strange cases = ", strange)
+                    logging.error("Not managed strange cases = ", strange)
 
 
     return pd.DataFrame(data, columns=data.pop(0)), total_pistol
 
 def extr_country(object):
-    pais = []
+    """
+    Extracts country names from a list of Wikimedia Commons URLs pointing to images of flags.
+
+    This function processes a list of URLs, each pointing to a flag image hosted on Wikimedia Commons.
+    It uses a regular expression to search each URL for a pattern that matches the name of a country.
+    The country name is extracted from the URL, formatted, and added to a list. If the country name
+    cannot be identified in a URL, the function adds a placeholder text "Fail To ID Country" to the list.
+
+    Parameters:
+    :param object: list of str
+        A list containing URLs of flag images from Wikimedia Commons. Each URL is expected to follow
+        a specific pattern that includes the country's name as part of the file path.
+
+    Returns:
+    :return: list of str
+        A list of country names corresponding to the flag images in the URLs provided. If a country
+        name cannot be identified from a URL, the list will contain the string "Fail To ID Country" at
+        that position.
+
+    Example Usage:
+    >>> urls = ["https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Brazil.svg/800px-Flag_of_Brazil.svg.png"]
+    >>> extr_country(urls)
+    ['Brazil']
+
+    Note:
+    The function assumes that the URL pattern will not change. If Wikimedia Commons changes the structure
+    of the URLs for flag images, the regular expression pattern may need to be updated.
+    """
+    country = []
     for url in object:
-        # Decodificamos la URL para convertir los caracteres codificados en caracteres normales
-
         url = unquote(url)
-
-        # Expresión regular para manejar diferentes casos de URLs
         regex = r"https://upload\.wikimedia\.org/wikipedia/(?:commons|en)/thumb/\w/\w\w/Flag_of_([^/]+).svg/\d+px-Flag_of_[^/]+.svg.png"
-
-        # Intentamos encontrar una coincidencia con la expresión regular
         match = re.search(regex, url)
-
-        # Si hay una coincidencia, retornamos el nombre del país o entidad
         if match:
-            # Extraemos el nombre del país y eliminamos cualquier cosa entre paréntesis
             aux = re.sub(r" ?\([^)]+\)", "", match.group(1))
-            # Reemplazamos los guiones bajos con espacios
-            pais.append(aux.replace('_', ' '))
+            country.append(aux.replace('_', ' '))
         else:
-            pais.append("Fail To ID Country")
-    return pais
+            country.append("Fail To ID Country")
+    return country
 
-def insertar_en_bbdd(df, usuario, contraseña, host, database, table):
+def insert_in_db(df, user, password, host, database, table):
+    """
+    Inserts the data from a DataFrame into a specified table in a MySQL database.
 
-    # Crear conexión a la base de datos
-    engine = create_engine(f"mysql+pymysql://{usuario}:{contraseña}@{host}/{database}")
+    This function establishes a connection to a MySQL database using provided user credentials,
+    host address, and database name. It then inserts the data from the DataFrame into the specified
+    table. If the table already exists, its contents will be replaced.
+
+    Parameters:
+    :param df: DataFrame
+        The pandas DataFrame containing the data to be inserted into the MySQL database table.
+    :param user: str
+        The username for authentication with the MySQL database.
+    :param password: str
+        The password for authentication with the MySQL database.
+    :param host: str
+        The host address of the MySQL database server.
+    :param database: str
+        The name of the database where the table is located.
+    :param table: str
+        The name of the table where the DataFrame data should be inserted.
+
+    Returns:
+    :return: str
+        A message indicating the result of the insert operation. "Insert OK" if the operation
+        is successful, or an error message that includes the exception raised if the operation
+        fails.
+
+    Raises:
+    :raises Exception:
+        Propagates exceptions that may occur during database connection or data insertion.
+
+    Note:
+    The 'if_exists' parameter in the 'to_sql' method is set to 'replace', which will replace
+    the existing table with the new data. If you wish to append the data instead, change it to 'append'.
+    """
+    engine = create_engine(f"mysql+pymysql://{user}:{password}@{host}/{database}")
     try:
-        # Insertar los datos en la tabla 'bajas'
         with engine.connect() as conn:
             df.to_sql(table, con=conn, if_exists='replace', index=False) #if_exists='append'
-            # conn.execute('COMMIT;')  # Hacer commit explícitamente
-        return "Insertado correctamente"
+            # conn.execute('COMMIT;')
+        return "Insert OK"
     except Exception as e:
-        return f"Ocurrió un error: {e}"
+        return f"Error: {e}"
 
 def clean_url(url):
-    # Eliminar espacios al principio y al final
-    url = url.strip()
+    """
 
-    # Reemplazar tabulaciones con espacios vacíos
+    :param url: dirty URL
+    :return: cleaned URL
+    """
+    url = url.strip()
     url = url.replace('\t', '')
 
     return url
@@ -209,16 +316,15 @@ def clean_url(url):
 
 def extract_tables_from_url2(url):
     """
-    Extrae tablas de una página web y las retorna como una lista de DataFrames de pandas.
+    Extracts tables from a web page and returns them as a list of pandas DataFrames.
 
-    Parámetros:
-    url (str): La URL de la página web de donde se extraerán las tablas.
+    Parameters:
+    url (str): The URL of the web page from which the tables will be extracted.
 
-    Retorna:
-    list or str: Una lista de DataFrames de pandas, o un mensaje de error si algo sale mal.
+    Returns:
+    list or str: A list of pandas DataFrames, or an error message if something goes wrong.
     """
 
-    # Define un encabezado de agente de usuario
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
         "Referer": "https://www.google.com/",  # Simula que llegas desde Google
@@ -228,18 +334,12 @@ def extract_tables_from_url2(url):
     cookies = {
         "session_id": "abc123"  # Reemplaza "abc123" con el valor real de tu cookie
     }
-
-    # Haz una solicitud GET a la URL con el encabezado de agente de usuario y permite redirecciones
     response = requests.get(url, headers=headers, allow_redirects=True)
 
-    # Asegúrate de que la solicitud fue exitosa
     if response.status_code == 200:
-        # Si la solicitud fue exitosa, pasa el contenido de la respuesta a pandas.read_html
         tables = pd.read_html(response.text)
-        # Retorna las tablas como una lista de DataFrames de pandas
         return tables
     else:
-        # Si la solicitud no fue exitosa, retorna un mensaje de error
         return f"Error: {response.status_code}"
 
 

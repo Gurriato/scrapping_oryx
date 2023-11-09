@@ -12,8 +12,9 @@ There are some equipment not been capture by the scrapper due coding errors on O
     - 2 Ucranian tanks (2 M-55S)
         - Coding error in Oryx webpage, my code is unable to capture this, added manually
     - 29 unkown Russian Equipment. Impact on the df: (probably most of them are because they are )
-        - 11 220mm TOS-1A appearing as MT-LB with 140mm Ogon-18 MRLS
+        - 11 220mm TOS-1A appeari+ng as MT-LB with 140mm Ogon-18 MRLS
         - UAZ PAtriot jeep labeled as LUAZ-969
+        - MT-LB captured 69 & 70 missing a comma between them
         - Unkown error 8 UAZ-23632 (not scraped) and 8 UAZ-23632-148-64 not labeled correctly
             - Still missing 10 elements 😓
 - Data errors in Oryx page:
@@ -52,6 +53,7 @@ There are some equipment not been capture by the scrapper due coding errors on O
         - 152mm 2S33 Msta-SM2, total 34 (-1)
         - 122mm BM-21 Grad, total 177 (+1)
 
+
 - Errors in my code:
     - 3388-3400 UA rows missing name they are 13 9A310M1 TELAR. Total number of cases is correct.
     - 1V110 BM-21 Grad battery command vehicle, bad scrap
@@ -61,8 +63,6 @@ There are some equipment not been capture by the scrapper due coding errors on O
     - 220mm TOS-1A labeled as MT-LB with 140mm Ogon-18 MRLS
     - 14 9A310M1-2 TELAR (for Buk-M1-2) missing names around rows ~9017-9120
     - more un RU side
-
-
 
 
 #### To Do
@@ -82,7 +82,6 @@ There are some equipment not been capture by the scrapper due coding errors on O
 ## Datasources
 - Oryx (https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html
         https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html )
-- Classes clasification (https://github.com/leedrake5/Russia-Ukraine/blob/main/data/classes.csv)
 
 
 ## Other related projects to explore
