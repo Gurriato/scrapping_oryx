@@ -8,6 +8,7 @@ import json
 import datetime as dt
 import hashlib
 import logging
+import datetime as dt
 
 
 def generate_short_hash(row):
@@ -201,6 +202,8 @@ if __name__ == '__main__':
     if df_results_base.shape[0] != 0:
         df_results_base.to_csv('./Data/diff/excep_base_' + str(now.date()) + '.csv')
     df_results_new.to_csv('./Data/diff/excep_new_' + str(now.date()) + '.csv')
+
+    df_results_new['Date'] = dt.datetime.now().strftime("%d/%m/%Y")
     logging.info('New rows added: ' + str(df_results_new.shape[0]))
     base = pd.concat([base, df_results_new])
     # Use this line instead of next if you want to see the real count of Oryx
@@ -208,3 +211,10 @@ if __name__ == '__main__':
     base['total'] = base.groupby(['owner', 'weapon', 'platform'])['owner'].transform('size')
     pushToDB(to_file, total_UA, total_RU)
     base.to_csv('./Data/base.csv', sep=';', index=False)
+
+
+# Data
+# https://www.ifw-kiel.de/publications/ukraine-support-tracker-data-20758/
+# https://www.oryxspioenkop.com/2023/04/sudan-on-fire-documenting-equipment.html
+# https://www.oryxspioenkop.com/2023/04/list-listing-oryx-list-of-lists.html
+
