@@ -1,0 +1,25 @@
+,Type,Total,Destroyed,Damaged,Abandoned,Captured
+1,Tanks,2678,1753,149,235,541
+2,Armoured Fighting Vehicles,1160,779,32,80,271
+3,Infantry Fighting Vehicles,3343,2343,131,248,621
+4,0,0,0,0,0,0
+5,Mine-Resistant Ambush Protected (MRAP) Vehicles,52,36,5,1,10
+6,Infantry Mobility Vehicles,235,167,12,5,51
+7,Command Posts And Communications Stations,268,179,4,2,83
+8,Engineering Vehicles And Equipment,433,239,15,30,149
+9,Self-Propelled Anti-Tank Missile Systems,43,18,1,4,20
+10,Artillery Support Vehicles And Equipment,113,58,0,2,53
+11,Towed Artillery,340,198,38,5,99
+12,Self-Propelled Artillery,663,511,38,7,107
+13,Multiple Rocket Launchers,346,260,30,2,54
+14,Anti-Aircraft Guns,45,28,0,0,17
+15,Self-Propelled Anti-Aircraft Guns,25,14,1,2,8
+16,Surface-To-Air Missile Systems,205,147,30,4,24
+17,Radars,61,40,11,0,10
+18,Jammers And Deception Systems,70,52,11,0,7
+19,Aircraft,102,94,8,0,0
+20,Helicopters,135,104,29,0,2
+21,Unmanned Combat Aerial Vehicles,14,11,0,0,3
+22,Reconnaissance Unmanned Aerial Vehicles,319,182,0,0,137
+23,Naval Shipsand Submarines,20,13,7,0,0
+24,"Trucks, Vehicles, and Jeeps",3104,2409,76,46,573
