@@ -1,0 +1,710 @@
+,owner,origen,weapon,platform,total,number,Status,url,primary_key,Date
+101,RU,['the Soviet Union'],Tanks,T-64BV,76,14,['destroyed'],https://i.postimg.cc/pTfSkjxd/23.jpg,_b7084b4938a3b3ab7cdd,14/05/2022
+117,RU,['the Soviet Union'],Tanks,T-64BV,76,30,['destroyed'],https://i.postimg.cc/rwVpBPxz/1002-t64bv-destr.jpg,_3bddd73cedbba0dd0434,02/10/2022
+129,RU,['the Soviet Union'],Tanks,T-64BV,76,42,['destroyed'],https://twitter.com/UAWeapons/status/1658805354853957635,_b60a01e80d3342183f15,21/05/2023
+150,RU,['the Soviet Union'],Tanks,T-64BV,76,1,['abandoned'],https://i.postimg.cc/2SxhnNXW/545.jpg,_493c3556fda2fe18a1a3,04/06/2022
+151,RU,['the Soviet Union'],Tanks,T-64BV,76,2,['abandoned'],https://twitter.com/Osinttechnical/status/1543835821123534849,_46e6359f864da553e1d1,04/07/2022
+152,RU,['the Soviet Union'],Tanks,T-64BV,76,3,"['damaged', 'abandoned']",https://i.postimg.cc/jSJ8dJ3K/1042-t72b-aband-11-10-23.jpg,_7c126d355ab2218fa39a,11/10/2023
+153,RU,['the Soviet Union'],Tanks,T-64BV,76,4,"['damaged', 'abandoned']",https://i.postimg.cc/0NcRYBJS/1046-t64bv-dam-aband-18-10-23.jpg,_33eb0134e95349cf2551,21/10/2023
+154,RU,['the Soviet Union'],Tanks,T-64BV,76,5,"['damaged', 'abandoned']",https://i.postimg.cc/Dyzd0W42/1016-64-BV-and-72-B-dam-aband-19-10-23.jpg,_c8a0820210c8fb8dce5e,05/11/2023
+158,RU,['the Soviet Union'],Tanks,T-64BV,76,4,['captured'],https://i.postimg.cc/W4kWxSLT/7769.jpg,_6c4ccf494ea2afa3ba11,01/04/2022
+159,RU,['the Soviet Union'],Tanks,T-64BV,76,5,['captured'],https://i.postimg.cc/v8J9YFfJ/1007.jpg,_9a39c610cda73ad75373,07/07/2022
+247,RU,['the Soviet Union'],Tanks,T-72B,325,31,['destroyed'],https://i.postimg.cc/ZnVfz5bh/sx.jpg,_6c7df5fe39e19fdd9e58,01/04/2022
+251,RU,['the Soviet Union'],Tanks,T-72B,325,35,['destroyed'],https://i.postimg.cc/d02MvR3G/1002.jpg,_8417846892829956b17f,16/07/2022
+252,RU,['the Soviet Union'],Tanks,T-72B,325,36,['destroyed'],https://i.postimg.cc/TPD19KmC/41.png,_4f342259cc726e008cc5,05/04/2022
+266,RU,['the Soviet Union'],Tanks,T-72B,325,50,['destroyed'],https://i.postimg.cc/wMNNW0t9/471.png,_3e4f4151fcd129e1e65b,13/04/2022
+267,RU,['the Soviet Union'],Tanks,T-72B,325,51,['destroyed'],https://i.postimg.cc/wMNNW0t9/471.png,_f3732a2bfa7cb684c086,13/04/2022
+303,RU,['the Soviet Union'],Tanks,T-72B,325,87,['destroyed'],https://i.postimg.cc/T3GDrcyZ/1004-t72b.jpg,_92ba49d0173dae30019d,06/08/2022
+312,RU,['the Soviet Union'],Tanks,T-72B,325,96,['destroyed'],https://i.postimg.cc/gjvnW3xc/1006-t72b.jpg,_3526437fbebcb958d599,30/08/2022
+386,RU,['the Soviet Union'],Tanks,T-72B,325,170,['destroyed'],https://i.postimg.cc/cCWRbCcR/1008-t72b-bmp1-destr-25-04-23.jpg,_25ee8b1ba1e29a073775,27/04/2023
+397,RU,['the Soviet Union'],Tanks,T-72B,325,181,['destroyed'],https://i.postimg.cc/Bn8R6830/1003-t72b-destr-06-06-23.jpg,_2daf68fd42a57c2e9b17,08/06/2023
+429,RU,['the Soviet Union'],Tanks,T-72B,325,213,['destroyed'],https://i.postimg.cc/MG29cKgB/1046-t72b-destr-10-10-23.jpg,_492ee48d81d6abe2a94b,11/10/2023
+430,RU,['the Soviet Union'],Tanks,T-72B,325,214,['destroyed'],https://twitter.com/naalsio26/status/1716126930477428823,_4aca4502e5188a283efc,24/10/2023
+431,RU,['the Soviet Union'],Tanks,T-72B,325,215,['destroyed'],https://i.postimg.cc/SxN0MQHj/1007-t72b-destr-23-10-23.jpg,_e861b3a0b9ec8317bcf5,24/10/2023
+432,RU,['the Soviet Union'],Tanks,T-72B,325,216,['destroyed'],https://i.postimg.cc/fTrFfzfp/1004-T-72-B3-T-72-B-destr-01-11-23.jpg,_925076b07e4f8c8747bc,02/11/2023
+448,RU,['the Soviet Union'],Tanks,T-72B,325,9,"['damaged', 'abandoned']",https://twitter.com/UAWeapons/status/1590375007930417152,_4404a63929b436f6be1c,09/11/2022
+451,RU,['the Soviet Union'],Tanks,T-72B,325,12,"['damaged', 'abandoned']",https://twitter.com/UAWeapons/status/1625086988779937792,_731b84c9c5b5093dc4f4,14/02/2023
+458,RU,['the Soviet Union'],Tanks,T-72B,325,19,"['damaged', 'abandoned']",https://twitter.com/UAWeapons/status/1689240998394671104,_2a901c4209eec5a213f9,11/08/2023
+459,RU,['the Soviet Union'],Tanks,T-72B,325,20,"['damaged', 'abandoned']",https://i.postimg.cc/sDWVkfG0/4477.png,_b99edd6713de05d0ac5a,29/08/2023
+460,RU,['the Soviet Union'],Tanks,T-72B,325,21,"['damaged', 'abandoned']",https://i.postimg.cc/KvgcN12R/3786.png,_e45280f1919cc14b5c68,10/09/2023
+461,RU,['the Soviet Union'],Tanks,T-72B,325,22,['abandoned'],https://i.postimg.cc/ydjpgsNf/1027-t72b-aband.jpg,_6f442c8f99caa5ae2243,02/11/2023
+462,RU,['the Soviet Union'],Tanks,T-72B,325,23,['abandoned'],https://i.postimg.cc/SKWv4Wbb/1026-t72bobr22022-destr-t72b-brem1-mtlb-aband-31-10-23.jpg,_b53ea7d978d9823bc15b,02/11/2023
+463,RU,['the Soviet Union'],Tanks,T-72B,325,24,"['damaged', 'abandoned']",https://i.postimg.cc/Dyzd0W42/1016-64-BV-and-72-B-dam-aband-19-10-23.jpg,_3f8bbcf615d5d6b37aed,05/11/2023
+532,RU,['the Soviet Union'],Tanks,T-72B,325,69,"['damaged', 'captured']",https://i.postimg.cc/W4xvnYDb/1010-t72b-capt-dam.jpg,_7c375e906a3f8ddf105a,30/09/2022
+533,RU,['the Soviet Union'],Tanks,T-72B,325,70,"['damaged', 'captured']",https://i.postimg.cc/X7jJqvZ8/276.png,_cec0e7da8d1022c022f6,18/09/2023
+535,RU,['the Soviet Union'],Tanks,T-72B Obr. 1989,96,2,['destroyed'],https://i.postimg.cc/VLBGh0Lz/3dd1.jpg,_b5b495c38e2a8031c20f,07/03/2022
+543,RU,['the Soviet Union'],Tanks,T-72B Obr. 1989,96,10,['destroyed'],https://twitter.com/UAWeapons/status/1575821067657936896,_f44a4e1509b27f891994,30/09/2022
+574,RU,['the Soviet Union'],Tanks,T-72B Obr. 1989,96,41,['destroyed'],https://i.postimg.cc/ZKX1sWqV/331.png,_1fdf69ab52f815acd4e6,25/05/2022
+596,RU,['the Soviet Union'],Tanks,T-72B Obr. 1989,96,63,['destroyed'],https://i.postimg.cc/RFWcX8J9/1020-72-B-obr-1989-destr-30-11-22.jpg,_c3411629fd180c7ca05e,14/10/2023
+612,RU,['the Soviet Union'],Tanks,T-72B Obr. 1989,96,5,['captured'],https://i.postimg.cc/kGRMXTtk/dg.png,_21b146da369492e4e28f,28/03/2022
+628,RU,['the Soviet Union'],Tanks,T-72B Obr. 1989,96,21,['captured'],https://i.postimg.cc/sgGtMBw2/1003-t72b1989-capt-20-01-23.jpg,_005af8994f4a614b3cd1,21/01/2023
+641,RU,['Russia'],Tanks,T-72B Obr. 2022,28,13,['destroyed'],https://i.postimg.cc/j5r4SZP9/1010-t72bobr2022-destr-02-11-23.jpg,_07950f1354c5e9604d72,05/11/2023
+642,RU,['Russia'],Tanks,T-72B Obr. 2022,28,14,['destroyed'],https://i.postimg.cc/FRggd3xK/1009-t72bobr2022-and-bmp2-destr-02-11-23.jpg,_3e47f94a2b461925a687,05/11/2023
+651,RU,['Russia'],Tanks,T-72B Obr. 2022,28,8,"['damaged', 'abandoned']",https://i.postimg.cc/k4cKX9n6/1032-t72bobr2022-and-3x-mtlb-dam-aband-05-11-23.jpg,_8718bd1f4d93f3a84750,05/11/2023
+722,RU,['Russia'],Tanks,T-72B3,354,42,['destroyed'],https://postimg.cc/62Y8kj5j,_39204f122fb468ee6f9c,07/05/2022
+730,RU,['Russia'],Tanks,T-72B3,354,50,['destroyed'],https://i.postimg.cc/wxX1Pr3p/438.png,_67780505a92921408b58,22/05/2022
+760,RU,['Russia'],Tanks,T-72B3,354,80,['destroyed'],https://i.postimg.cc/x8Lh6m9T/1000-t72b3.jpg,_39bf375a33d7315ba461,28/08/2022
+788,RU,['Russia'],Tanks,T-72B3,354,108,['destroyed'],https://postlmg.cc/B8s41g1Z,_90698fc544583f36acab,11/04/2023
+795,RU,['Russia'],Tanks,T-72B3,354,115,['destroyed'],https://i.postimg.cc/ydVvY98z/2022-04-04-t-72b3.jpg,_524a2867064d93797093,17/10/2022
+799,RU,['Russia'],Tanks,T-72B3,354,119,['destroyed'],https://i.postimg.cc/QtRFdHdv/2022-04-16-t-72b3.jpg,_4e83b7bf7a91c7116ccd,17/10/2022
+802,RU,['Russia'],Tanks,T-72B3,354,122,['destroyed'],https://postlmg.cc/7bhq1CP5,_990c69f403b5cf818c91,05/04/2023
+819,RU,['Russia'],Tanks,T-72B3,354,139,['destroyed'],https://i.postimg.cc/wvnP920k/1000-t72b3-dam-capt.jpg,_cb6eb21f5b2080326732,08/11/2022
+840,RU,['Russia'],Tanks,T-72B3,354,160,['destroyed'],https://i.postimg.cc/B6hMmG0p/1300-t72b3-dam-aband-10-02-23.jpg,_0f0c959148cd6c678014,12/02/2023
+898,RU,['Russia'],Tanks,T-72B3,354,218,['destroyed'],https://i.postimg.cc/4Ndqc7Vp/1009-T-80-BVM-BTR-80-MT-LB-T-72-B3-and-Ural-4320-destr-24-11-22.jpg,_2587cb6153ee32c0f33d,02/11/2023
+899,RU,['Russia'],Tanks,T-72B3,354,219,['destroyed'],https://i.postimg.cc/tTyFj7HG/1029-72-B3-destr-04-11-23.jpg,_f7328258dab08ef4f916,05/11/2023
+917,RU,['Russia'],Tanks,T-72B3,354,18,['damaged'],https://i.postimg.cc/t4mYxw9n/1304-5x-BMP1-and-1x-t72b3-destroyed-21-02-23.jpg,_152bafce9af80c487bc7,08/03/2023
+918,RU,['Russia'],Tanks,T-72B3,354,19,['damaged'],https://twitter.com/UAWeapons/status/1638845891254558720,_2bf7e7ed7c43ff543f32,25/03/2023
+919,RU,['Russia'],Tanks,T-72B3,354,20,['damaged'],https://i.postimg.cc/fTvTV3hd/1002-t72b3-dam-20-04-23.jpg,_67490281f24de2a73b8a,23/04/2023
+920,RU,['Russia'],Tanks,T-72B3,354,21,['damaged'],https://i.postimg.cc/tCJhvnZN/1034-T-72-B3-dam-07-08-23.jpg,_404022f6e61f07750793,11/08/2023
+921,RU,['Russia'],Tanks,T-72B3,354,22,['damaged'],https://i.postimg.cc/G90xtbhX/1500-t72b3-dam-09-08-23.jpg,_896104803b439207d199,17/08/2023
+922,RU,['Russia'],Tanks,T-72B3,354,23,['damaged'],https://i.postimg.cc/8z9bq15T/1000-t72b3-dam-27-10-23.jpg,_99691a3ee825a43b23d8,05/11/2023
+947,RU,['Russia'],Tanks,T-72B3,354,2,"['damaged', 'captured']",https://twitter.com/UAWeapons/status/1547277890483519488,_52e2d77f29f4e7716042,13/07/2022
+949,RU,['Russia'],Tanks,T-72B3,354,4,"['damaged', 'captured']",https://twitter.com/UAWeapons/status/1554422066358648832,_2fb5e77d8341029a4be0,02/08/2022
+1027,RU,['Russia'],Tanks,T-72B3,354,82,['captured'],https://i.postimg.cc/nrgPN6Xf/1014-t72b3-capt-15-01-23.jpg,_bce9b22abbfbfe8f47a6,17/01/2023
+1028,RU,['Russia'],Tanks,T-72B3,354,83,['captured'],https://i.postimg.cc/J4tzjR7x/1017-t72b3-capt-22-01-23.jpg,_2f654049bd38ca1a7538,23/01/2023
+1045,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,14,['destroyed'],https://i.postimg.cc/DwB9FktZ/479p.png,_8f0b7836d632a9c45b50,08/03/2022
+1072,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,41,['destroyed'],https://postlmg.cc/KR1n122n,_e5779878ae15119c1690,13/05/2022
+1113,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,82,['destroyed'],https://i.postimg.cc/BvCFLgQC/1017-T-72-B3-obr-2016-destr.jpg,_cd7c342fe972ce29a98f,17/11/2022
+1140,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,109,['destroyed'],https://i.postimg.cc/hjj5zvzC/4890.png,_ea51922c88c501ff7c84,21/04/2023
+1162,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,132,['destroyed'],https://i.postimg.cc/9MgnjkFX/6hh.png,_5046fb4c637ec34c8675,28/02/2022
+1163,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,133,['destroyed'],https://i.postimg.cc/L547Nh7K/1010-t72b3obr2016-destr-btr82a-dam-28-10-23.jpg,_ade319534fa5ab9ab04c,02/11/2023
+1164,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,134,['destroyed'],https://i.postimg.cc/KcfDm7zq/1007-t72b3obr2016-destr-unkn-t72-dam-aband-02-11-23.jpg,_ec23a5a6e1b5e8c2361e,05/11/2023
+1204,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,32,['captured'],https://i.postimg.cc/vTwPKBMC/5n.png,_f9628e681125ff8358c8,28/03/2022
+1229,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,57,['captured'],https://i.postimg.cc/CKhm2Jgk/1003-t72b3-2016.jpg,_f4e1fcf74a71a6b5e835,05/09/2022
+1276,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,104,['captured'],https://i.postimg.cc/SxxSvW8Z/1004-t72b3.jpg,_522b2b17787f15436c43,17/09/2022
+1277,RU,['Russia'],Tanks,T-72B3 Obr. 2016,249,105,['captured'],https://twitter.com/naalsio26/status/1681970718911676417,_299ce6363b9c37a68639,21/07/2023
+1292,RU,['Russia'],Tanks,T-72B3 Obr. 2022,17,1,"['damaged', 'abandoned']",https://i.postimg.cc/SKyVKtMG/1001-T-72-B-Obr-2022-destr-2x-T-72-B3-Obr-2022-dam-aband-05-10-23.png,_ed905e1eaa3fea4387ab,08/10/2023
+1293,RU,['Russia'],Tanks,T-72B3 Obr. 2022,17,2,"['damaged', 'abandoned']",https://i.postimg.cc/SKyVKtMG/1001-T-72-B-Obr-2022-destr-2x-T-72-B3-Obr-2022-dam-aband-05-10-23.png,_fae167514fb6081001ce,08/10/2023
+1294,RU,['Russia'],Tanks,T-72B3 Obr. 2022,17,3,"['damaged', 'abandoned']",https://i.postimg.cc/zGHQdsdB/1003-T-72-B3-obr-2022-dam-aband-01-11-23.jpg,_f80d57006871f1ae6ba5,02/11/2023
+1298,RU,['Russia'],Tanks,Unknown T-72,148,4,['destroyed'],https://i.postimg.cc/wBYxrYxF/tank.png,_8b76cfeb293dbe149546,04/04/2022
+1304,RU,['Russia'],Tanks,Unknown T-72,148,10,['destroyed'],https://i.postimg.cc/k4KvP6FY/d34.jpg,_66e7462e0df607fdc2f9,06/04/2022
+1309,RU,['Russia'],Tanks,Unknown T-72,148,15,['destroyed'],https://twitter.com/UAWeapons/status/1524129863447285761,_7826adffe4ad6fe4b739,11/05/2022
+1310,RU,['Russia'],Tanks,Unknown T-72,148,16,['destroyed'],https://twitter.com/UAWeapons/status/1524129863447285761,_2fc9de7763de37e9a1c2,11/05/2022
+1311,RU,['Russia'],Tanks,Unknown T-72,148,17,['destroyed'],https://twitter.com/UAWeapons/status/1524129863447285761,_fbfa8abac68f76b12430,11/05/2022
+1321,RU,['Russia'],Tanks,Unknown T-72,148,27,['destroyed'],https://i.postimg.cc/cLg02zbz/7663.jpg,_cfff07c63d51b91d7113,01/06/2022
+1339,RU,['Russia'],Tanks,Unknown T-72,148,45,['destroyed'],https://twitter.com/UAWeapons/status/1569725397863993346,_6e1207fce3de889328f0,13/09/2022
+1342,RU,['Russia'],Tanks,Unknown T-72,148,48,['destroyed'],https://i.postimg.cc/WbHRhP82/89.png,_23bc0fc8434e8daa8364,17/03/2022
+1345,RU,['Russia'],Tanks,Unknown T-72,148,51,['destroyed'],https://twitter.com/UAWeapons/status/1507409695161696257,_19d1009f7158d0b3774e,27/03/2022
+1346,RU,['Russia'],Tanks,Unknown T-72,148,52,['destroyed'],https://i.postimg.cc/fTmYsJJb/54f.png,_3ba3d5e860aefd137c7d,27/03/2022
+1349,RU,['Russia'],Tanks,Unknown T-72,148,55,['destroyed'],https://i.postimg.cc/pL85bGRX/7766.jpg,_6492e997c61f0f2d8cf5,01/04/2022
+1356,RU,['Russia'],Tanks,Unknown T-72,148,62,['destroyed'],https://twitter.com/UAWeapons/status/1578063068721971200,_f2ef6e9f7b00433cb7a4,06/10/2022
+1359,RU,['Russia'],Tanks,Unknown T-72,148,65,['destroyed'],https://i.postimg.cc/L6zv8gxs/2022-09-03-unk-t-72-2.jpg,_f0c441b93d8aab2fc8d8,17/10/2022
+1364,RU,['Russia'],Tanks,Unknown T-72,148,70,['destroyed'],https://i.postimg.cc/BQQWJNhb/2022-06-20-Unknown-T-72-destroyed-Chernihiv.jpg,_dcb55d79c366ce8b3231,08/12/2022
+1396,RU,['Russia'],Tanks,Unknown T-72,148,102,['destroyed'],https://i.postimg.cc/Yq0nZP1v/1034-unkn-t72-destr-11-10-23.jpg,_0a7297a52a59b33dd25a,11/10/2023
+1397,RU,['Russia'],Tanks,Unknown T-72,148,103,['destroyed'],https://i.postimg.cc/8cqVFffn/1013-unknown-t72-destr-20-10-23.jpg,_b214ed20b8be78040aa6,21/10/2023
+1398,RU,['Russia'],Tanks,Unknown T-72,148,104,['destroyed'],https://i.postimg.cc/0QXvsBkv/1014-2x-unknown-t72-destr-20-10-23.jpg,_d8a5fce32a9f8ee629b0,21/10/2023
+1399,RU,['Russia'],Tanks,Unknown T-72,148,105,['destroyed'],https://i.postimg.cc/0QXvsBkv/1014-2x-unknown-t72-destr-20-10-23.jpg,_33a79d703675148da8ea,21/10/2023
+1400,RU,['Russia'],Tanks,Unknown T-72,148,106,['destroyed'],https://i.postimg.cc/MHcSKmHQ/1021-unkn-t72-destr-19-10-23.jpg,_bdbd520352fc08e29294,21/10/2023
+1401,RU,['Russia'],Tanks,Unknown T-72,148,107,['destroyed'],https://i.postimg.cc/wTzY9QVX/1009-unkn-t72-destr-23-10-23.jpg,_9a92bcd68d2077e67de2,24/10/2023
+1402,RU,['Russia'],Tanks,Unknown T-72,148,108,['destroyed'],https://i.postimg.cc/BnPqJwzg/1035-unkn-t72-destr-21-10-23.jpg,_40b7d19727dec501140a,25/10/2023
+1403,RU,['Russia'],Tanks,Unknown T-72,148,109,['destroyed'],https://i.postimg.cc/FsFwT9Sb/1031-unkn-T-72-destr-12-10-23.jpg,_0e3cadc41a7b1c0bdd7c,28/10/2023
+1404,RU,['Russia'],Tanks,Unknown T-72,148,110,['destroyed'],https://i.postimg.cc/qMZc3k22/1008-unkn-t72-destr-02-11-23.jpg,_2c666a64ec3cb1bd06c3,05/11/2023
+1426,RU,['Russia'],Tanks,Unknown T-72,148,5,['abandoned'],https://i.postimg.cc/8kynTp9c/1030-unkn-t72-and-MT-LB-with-ZU-23-aband-31-10-23.jpg,_d8b84034dd9378df1346,02/11/2023
+1427,RU,['Russia'],Tanks,Unknown T-72,148,6,"['damaged', 'abandoned']",https://i.postimg.cc/KcfDm7zq/1007-t72b3obr2016-destr-unkn-t72-dam-aband-02-11-23.jpg,_b02b416333009bf04f3d,05/11/2023
+1480,RU,['the Soviet Union'],Tanks,T-80BV,440,48,['destroyed'],https://i.postimg.cc/GtSjVwcD/1003-Destroyed-T-80-BV.jpg,_91916c3c106a7c82182d,29/09/2022
+1505,RU,['the Soviet Union'],Tanks,T-80BV,440,73,['destroyed'],https://i.postimg.cc/76cyMGgg/1000-unkn-t72-destr.jpg,_3539f5ae62158d6daba6,18/10/2022
+1570,RU,['the Soviet Union'],Tanks,T-80BV,440,138,['destroyed'],https://i.postimg.cc/W47YvJ2Q/1035-t80bv-destr-13-03-23.png,_eb8fa8aa661d0c48fa64,15/03/2023
+1584,RU,['the Soviet Union'],Tanks,T-80BV,440,152,['destroyed'],https://i.postimg.cc/zDjPBByk/66y6.png,_483c04b35b7bf448de67,17/04/2023
+1615,RU,['the Soviet Union'],Tanks,T-80BV,440,183,['destroyed'],https://i.postimg.cc/qv3wyNWp/1012-t80bv-destr-23-06-23.jpg,_de71b0b2d352df99fcf9,24/06/2023
+1653,RU,['the Soviet Union'],Tanks,T-80BV,440,221,['destroyed'],https://i.postimg.cc/G3kYSs4y/1014-T-80-BV-destr-16-07-23.jpg,_e555cae9a7f3039b6159,23/07/2023
+1655,RU,['the Soviet Union'],Tanks,T-80BV,440,223,['destroyed'],https://i.postimg.cc/kXLjJRgQ/1009-t80bv-destr-24-07-23.jpg,_910e8d238aef8183f314,24/07/2023
+1671,RU,['the Soviet Union'],Tanks,T-80BV,440,229,['destroyed'],https://i.postimg.cc/7LbYj3mh/1016-2x-t80bv-1x-destr-1x-aband-1x-bmp1-destr-14-08-23.jpg,_85ca2a6836a445407ec9,14/08/2023
+1676,RU,['the Soviet Union'],Tanks,T-80BV,440,244,['destroyed'],https://i.postimg.cc/Ss7JrjHS/1014-t80bv-destr-18-08-23.jpg,_267ea8a95b09c736c940,20/08/2023
+1693,RU,['the Soviet Union'],Tanks,T-80BV,440,261,['destroyed'],https://i.postimg.cc/bJ8jRbCW/198.png,_78f34708b8a1ee462a0f,18/09/2023
+1718,RU,['the Soviet Union'],Tanks,T-80BV,440,286,['destroyed'],https://i.postimg.cc/hGnXJwZ9/1041-t80bv-destr-30-11-22.jpg,_4a82067eacccff42ff8d,05/11/2023
+1748,RU,['the Soviet Union'],Tanks,T-80BV,440,11,"['damaged', 'abandoned']",https://i.postimg.cc/NMSHWvVC/1014-t80bv-dam-aband-31-01-23.jpg,_4896658a5e7b04019451,01/02/2023
+1759,RU,['the Soviet Union'],Tanks,T-80BV,440,22,['abandoned'],https://twitter.com/UAWeapons/status/1630135537750142977,_f2f56d4a26431ecbd184,28/02/2023
+1771,RU,['the Soviet Union'],Tanks,T-80BV,440,34,['abandoned'],https://i.postimg.cc/tCm7DKvx/1031-t80bv-aband-23-07-23.jpg,_5852c68d982159cb379b,20/08/2023
+1772,RU,['the Soviet Union'],Tanks,T-80BV,440,35,['abandoned'],https://i.postimg.cc/kgdZnvTF/1501-t80bv-dam-aband-20-08-23.jpg,_f173dc598abdbc0495ef,26/08/2023
+1773,RU,['the Soviet Union'],Tanks,T-80BV,440,36,"['damaged', 'abandoned']",https://i.postimg.cc/8zDZ4M2t/1000-T-80-BV-Dam-Aband-05-10-23.jpg,_1cd47f474be402249725,09/10/2023
+1774,RU,['the Soviet Union'],Tanks,T-80BV,440,37,"['damaged', 'abandoned']",https://i.postimg.cc/50gJPcHx/1019-mtlb-destr-t80bv-dam-aband-22-10-23.jpg,_3901594a89beea66f114,25/10/2023
+1775,RU,['the Soviet Union'],Tanks,T-80BV,440,38,"['damaged', 'abandoned']",https://i.postimg.cc/qMzDqfHL/1034-1x-t72b3-1x-t80bv-2x-unkn-tank-destr-1x-t80bv-aband-31-10-23.jpg,_92a70fe31a7989f9317c,02/11/2023
+1776,RU,['the Soviet Union'],Tanks,T-80BV,440,39,"['damaged', 'abandoned']",https://i.postimg.cc/kGjHZq3V/1018-2x-t80bv-1x-destr-1x-dam-aband-31-10-23.jpg,_c8576a048441b6a3c209,02/11/2023
+1811,RU,['the Soviet Union'],Tanks,T-80BV,440,35,['captured'],https://i.postimg.cc/SK3422K0/488.png,_e27a31781dec143d5386,12/04/2023
+1860,RU,['the Soviet Union'],Tanks,T-80BV,440,84,['captured'],https://i.postimg.cc/PxC7dQHG/1040-t80bv-capt-13-09-22.jpg,_5135318c34289b1d92f3,08/08/2023
+1867,RU,['Russia'],Tanks,T-80BV Obr. 2022,8,1,"['damaged', 'abandoned']",https://i.postimg.cc/prLXJCDC/1042-t80bvm-unkn-t80-bmp1-and-bmp2-destr-20-08-23.jpg,_fabebb2437f3541d39d7,20/08/2023
+1897,RU,['Russia'],Tanks,T-80U,98,30,['destroyed'],https://i.postimg.cc/q7yrqVbh/1001.jpg,_cf7ebcb9ec4a7ed95858,16/07/2022
+1910,RU,['Russia'],Tanks,T-80U,98,1,['abandoned'],https://i.postimg.cc/yYRCdvZV/1500-t80u.jpg,_2cddd61772f47fa15370,21/08/2022
+1911,RU,['Russia'],Tanks,T-80U,98,2,['abandoned'],https://i.postimg.cc/MGTLkhhC/655.jpg,_810c9b3b82a42c4d0eb5,24/04/2022
+1912,RU,['Russia'],Tanks,T-80U,98,3,['abandoned'],https://i.postimg.cc/6pZrMGJj/5554.png,_d41677222d2050904682,01/03/2022
+1913,RU,['Russia'],Tanks,T-80U,98,4,['abandoned'],https://i.postimg.cc/fT1zwVth/l2.png,_57c67f60d88bf5f7896b,01/03/2022
+1914,RU,['Russia'],Tanks,T-80U,98,6,['abandoned'],https://i.postimg.cc/sf47Cvsh/76.jpg,_5c87c0c199bba1f3358e,24/04/2022
+2039,RU,['Russia'],Tanks,T-80BVM,104,1,"['damaged', 'abandoned']",https://i.postimg.cc/c4R5jpYr/1001-t80bvm-dam-aband-10-07-23.jpg,_b12cf1bd31932704e765,11/07/2023
+2040,RU,['Russia'],Tanks,T-80BVM,104,2,"['damaged', 'abandoned']",https://i.postimg.cc/J0tMSfm3/1005-72-B3-and-80-BVM-dam-aband-20-08-23.jpg,_040c6b7dd70d1cde3e15,23/08/2023
+2079,RU,['Russia'],Tanks,T-80BVM Obr. 2022,7,7,['destroyed'],https://i.postimg.cc/1txzNrb7/1201-t80bvm-2022-destr-11-10-23.jpg,_0c07144045919d4c3d98,02/11/2023
+2084,RU,['Russia'],Tanks,Unknown T-80,11,4,['destroyed'],https://i.postimg.cc/prLXJCDC/1042-t80bvm-unkn-t80-bmp1-and-bmp2-destr-20-08-23.jpg,_3174d2139a795a39399a,20/08/2023
+2087,RU,['Russia'],Tanks,Unknown T-80,11,1,['abandoned'],https://i.postimg.cc/65bxy8wG/8j.png,_961434fe0c4bdcd86fc3,13/05/2022
+2088,RU,['Russia'],Tanks,Unknown T-80,11,2,"['damaged', 'abandoned']",https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_cd549163a48c15481e59,17/10/2023
+2132,RU,['Russia'],Tanks,T-90S,7,1,['captured'],https://twitter.com/UAWeapons/status/1613325613795770371,_a6ff749dace968ccfdc4,13/01/2023
+2183,RU,['Russia'],Tanks,Unknown tank,301,3,['destroyed'],https://i.postimg.cc/DzBFGGz9/m9.jpg,_7da697e28c13472d36e6,16/03/2022
+2192,RU,['Russia'],Tanks,Unknown tank,301,12,['destroyed'],https://i.postimg.cc/5ySG8G0n/2f.png,_fbad533f922fbaf15c03,01/04/2022
+2193,RU,['Russia'],Tanks,Unknown tank,301,13,['destroyed'],https://i.postimg.cc/NjWVL03k/3211.jpg,_4dda894840429f55611a,01/04/2022
+2194,RU,['Russia'],Tanks,Unknown tank,301,14,['destroyed'],https://twitter.com/UAWeapons/status/1510015312648888325,_2e2509b643358281bbcc,01/04/2022
+2195,RU,['Russia'],Tanks,Unknown tank,301,15,['destroyed'],https://twitter.com/UAWeapons/status/1569621227542642691,_79a53a379e3b9b3a0cd4,13/09/2022
+2207,RU,['Russia'],Tanks,Unknown tank,301,27,['destroyed'],https://i.postimg.cc/pTqLw6r7/g11.jpg,_18da19d7fd9a3e235bbf,25/04/2022
+2214,RU,['Russia'],Tanks,Unknown tank,301,34,['destroyed'],https://i.postimg.cc/ZnP0rRzK/3d.png,_067b8c3e26d20afcd379,06/05/2022
+2215,RU,['Russia'],Tanks,Unknown tank,301,35,['destroyed'],https://i.postimg.cc/nc1rvgYx/1006-unkn-tank-destr.jpg,_ee4458cfc9df1949ad41,14/12/2022
+2220,RU,['Russia'],Tanks,Unknown tank,301,40,['destroyed'],https://i.postimg.cc/Hkc4GppB/4436.png,_bdfe66fe59dc5c67f851,25/05/2022
+2226,RU,['Russia'],Tanks,Unknown tank,301,46,['destroyed'],https://twitter.com/UAWeapons/status/1535549426261008385,_9b518480bcaffad24f86,12/06/2022
+2228,RU,['Russia'],Tanks,Unknown tank,301,48,['destroyed'],https://twitter.com/UAWeapons/status/1537135796490231808,_61cd85c84bcadde15cfb,16/06/2022
+2245,RU,['Russia'],Tanks,Unknown tank,301,65,['destroyed'],https://twitter.com/UAWeapons/status/1545728233173286913,_dda6e8b4ceebba24cd41,09/07/2022
+2251,RU,['Russia'],Tanks,Unknown tank,301,71,['destroyed'],https://i.postimg.cc/D0jkH2ZD/1008.jpg,_d2f71364ea2bb9b8a40d,16/07/2022
+2256,RU,['Russia'],Tanks,Unknown tank,301,76,['destroyed'],https://twitter.com/UAWeapons/status/1598000787971448832,_8029d6832cb2549b4db1,01/12/2022
+2259,RU,['Russia'],Tanks,Unknown tank,301,79,['destroyed'],https://twitter.com/UAWeapons/status/1554872804365025282,_24bc3113a804dea36bfe,03/08/2022
+2279,RU,['Russia'],Tanks,Unknown tank,301,99,['destroyed'],https://twitter.com/UAWeapons/status/1563175738022326272,_a91b789e1c17de6c9952,27/08/2022
+2309,RU,['Russia'],Tanks,Unknown tank,301,129,['destroyed'],https://twitter.com/UAWeapons/status/1579913595298942976,_9dbfac1d716cf8db378e,11/10/2022
+2339,RU,['Russia'],Tanks,Unknown tank,301,159,['destroyed'],https://i.postimg.cc/KzRTq89g/1015-unkn-tank-destr-31-01-23.png,_80530c23b3d717b01090,01/02/2023
+2357,RU,['Russia'],Tanks,Unknown tank,301,177,['destroyed'],https://i.postimg.cc/CK0rX4VG/1004-unkn-tank-destr-15-03-23.jpg,_13028f6d1441f2e8670a,15/03/2023
+2358,RU,['Russia'],Tanks,Unknown tank,301,178,['destroyed'],https://twitter.com/ServiceSsu/status/1637017523727003648,_6eef134822d6bca6fcc0,19/03/2023
+2362,RU,['Russia'],Tanks,Unknown tank,301,182,['destroyed'],https://i.postimg.cc/J4Q4W1Bc/1042-unkn-tank-destr-16-03-23.jpg,_f3f69b334ac06bb89563,19/03/2023
+2397,RU,['Russia'],Tanks,Unknown tank,301,217,['destroyed'],https://i.postimg.cc/Hn3cL4TR/1024-1x-destr-1x-dam-aband-unkn-tank-Remdiesel-Z-STS-Akhmat-destr-15-10-23.jpg,_b10db9064c4b5b4e1c59,17/10/2023
+2418,RU,['Russia'],Tanks,Unknown tank,301,238,['destroyed'],https://i.postimg.cc/y65KptpX/1009-unkn-tank-destr-20-10-23.jpg,_833f96a928747d1c7ac7,21/10/2023
+2419,RU,['Russia'],Tanks,Unknown tank,301,239,['destroyed'],https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_48265db451da0d98f1fe,17/10/2023
+2420,RU,['Russia'],Tanks,Unknown tank,301,240,['destroyed'],https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_b585b5a07cb2b446c40f,17/10/2023
+2421,RU,['Russia'],Tanks,Unknown tank,301,241,['destroyed'],https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_33aa877b2532dd38477f,17/10/2023
+2422,RU,['Russia'],Tanks,Unknown tank,301,242,['destroyed'],https://i.postimg.cc/t4c6P5FH/1008-unkn-tank-destr-16-10-23.png,_51e9152d9f8ac56d9f6b,17/10/2023
+2423,RU,['Russia'],Tanks,Unknown tank,301,243,['destroyed'],https://i.postimg.cc/qMzDqfHL/1034-1x-t72b3-1x-t80bv-2x-unkn-tank-destr-1x-t80bv-aband-31-10-23.jpg,_68c4e8f2af4200410dd7,02/11/2023
+2424,RU,['Russia'],Tanks,Unknown tank,301,244,['destroyed'],https://i.postimg.cc/qMzDqfHL/1034-1x-t72b3-1x-t80bv-2x-unkn-tank-destr-1x-t80bv-aband-31-10-23.jpg,_855910742123e63bc483,02/11/2023
+2425,RU,['Russia'],Tanks,Unknown tank,301,245,['destroyed'],https://i.postimg.cc/L4vGhBYH/1019-unkn-tank-destr-31-10-23.jpg,_0613538ffa73952aa4ca,02/11/2023
+2426,RU,['Russia'],Tanks,Unknown tank,301,246,['destroyed'],https://i.postimg.cc/SRR2SMT3/1040-1x-unkn-tank-destr-2x-bmp1-dam-aband-04-11-23.jpg,_4a0373126fea3c7f5cb1,05/11/2023
+2427,RU,['Russia'],Tanks,Unknown tank,301,247,['destroyed'],https://i.postimg.cc/Wp5gB2Wx/1033-unkn-tank-destr-19-10-23.jpg,_4e2dc4d250cd6a77b231,05/11/2023
+2436,RU,['Russia'],Tanks,Unknown tank,301,9,['damaged'],https://twitter.com/UAWeapons/status/1593253796855001093,_c3f49d5df86e490d24d7,17/11/2022
+2439,RU,['Russia'],Tanks,Unknown tank,301,12,['damaged'],https://i.postimg.cc/mkr5X8Cn/1022-unkn-tank-dam-16-01-23.jpg,_8687fcc435c2300755b5,19/01/2023
+2451,RU,['Russia'],Tanks,Unknown tank,301,24,['damaged'],https://i.postimg.cc/6TJJTbQf/1015-unkn-tank-dam-07-07-23.jpg,_47862ee2a62f3a426f71,08/07/2023
+2452,RU,['Russia'],Tanks,Unknown tank,301,25,['damaged'],https://i.postimg.cc/DZRMmPFy/1042-unkn-tank-dam-08-10-23.jpg,_084bdd940bed5b20f9ce,08/10/2023
+2454,RU,['Russia'],Tanks,Unknown tank,301,2,"['damaged', 'abandoned']",https://i.postimg.cc/MKzpNpgY/1003.jpg,_a9d0ead1829c6afa6cdb,28/07/2022
+2460,RU,['Russia'],Tanks,Unknown tank,301,8,"['damaged', 'abandoned']",https://i.postimg.cc/g0JBYvSX/443f.png,_792a1394fc8f5d75fb2c,03/04/2023
+2468,RU,['Russia'],Tanks,Unknown tank,301,16,"['damaged', 'abandoned']",https://i.postimg.cc/Hn3cL4TR/1024-1x-destr-1x-dam-aband-unkn-tank-Remdiesel-Z-STS-Akhmat-destr-15-10-23.jpg,_fb9c008fea8c91b72af5,17/10/2023
+2469,RU,['Russia'],Tanks,Unknown tank,301,17,['abandoned'],https://i.postimg.cc/xjz9fCS2/1039-unkn-tank-aband-23-10-23.jpg,_c3b38b401ff480d7e16b,24/10/2023
+2470,RU,['Russia'],Tanks,Unknown tank,301,18,"['damaged', 'abandoned']",https://i.postimg.cc/nzpZYVhR/1004-unkn-tank-dam-aband-20-10-23.jpg,_91ad000d7993b30f709e,25/10/2023
+2471,RU,['Russia'],Tanks,Unknown tank,301,19,"['damaged', 'abandoned']",https://i.postimg.cc/8C8TcmQV/1005-unkn-tank-and-btr82-aband-2x-unkn-afv-destr-20-10-23.jpg,_4e2a144a943731adcb76,25/10/2023
+2472,RU,['Russia'],Tanks,Unknown tank,301,20,"['damaged', 'abandoned']",https://i.postimg.cc/DZPHr1xP/1017-unkn-tank-dam-aband-31-10-23.jpg,_3707955ddce7d854cf89,02/11/2023
+2497,RU,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,27,4,['captured'],https://twitter.com/UAWeapons/status/1569229438864195589,_7b60c5998c4a955c039a,12/09/2022
+2502,RU,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,27,9,['captured'],https://i.postimg.cc/SNkW4Ccj/1003-brm1k-capt-31-03-22.jpg,_1b7c29af46e75d53e9e1,15/01/2023
+2519,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,3,['destroyed'],https://twitter.com/UAWeapons/status/1498757622211784707,_6d41a30ba2d200425ddd,02/03/2022
+2524,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,8,['destroyed'],https://i.postimg.cc/y6m6zVCB/525.png,_2d55d30cd412128fd11e,09/03/2022
+2525,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,9,['destroyed'],https://i.postimg.cc/gJ24TR94/457.png,_8324eef0d2292d519b7c,14/03/2022
+2571,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,55,['destroyed'],https://i.postimg.cc/cHwQVqVN/e-Vsa-X8-T8-jpg-large.jpg,_68ce2dd724166c113e32,28/06/2022
+2600,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,85,['destroyed'],https://i.postimg.cc/q7yrqVbh/1001.jpg,_95db7be5bd20a1cf377c,16/07/2022
+2764,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,249,['destroyed'],https://i.postimg.cc/fyqyk31y/1302-mtlb-destr-12-09-22.jpg,_587e4f5ca42ea945ff15,10/06/2023
+2839,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,322,['destroyed'],https://i.postimg.cc/1XzLzfvF/1011-mtlb-destr-23-10-23.jpg,_8af5743b3ab1e7c5abf1,25/10/2023
+2840,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,323,['destroyed'],https://i.postimg.cc/769FDgnD/1012-mtlb-destr-23-10-23.jpg,_b4fdeeb40c4beea48443,25/10/2023
+2851,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,334,['destroyed'],https://i.postimg.cc/GhLsrD6w/1014-MT-LB-destr-31-10-23.jpg,_689e711480ca62140d9c,02/11/2023
+2896,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,29,['abandoned'],https://i.postimg.cc/SKWv4Wbb/1026-t72bobr22022-destr-t72b-brem1-mtlb-aband-31-10-23.jpg,_414d0e262d4dcf4b393d,02/11/2023
+2899,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,32,"['damaged', 'abandoned']",https://i.postimg.cc/k4cKX9n6/1032-t72bobr2022-and-3x-mtlb-dam-aband-05-11-23.jpg,_74f84ffb9e6b73af5292,05/11/2023
+2900,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,33,"['damaged', 'abandoned']",https://i.postimg.cc/k4cKX9n6/1032-t72bobr2022-and-3x-mtlb-dam-aband-05-11-23.jpg,_9a175557e86b6651f0b9,05/11/2023
+2901,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,34,"['damaged', 'abandoned']",https://i.postimg.cc/k4cKX9n6/1032-t72bobr2022-and-3x-mtlb-dam-aband-05-11-23.jpg,_38f1aba1a8e994e94f45,05/11/2023
+3061,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LBVM and MT-LBVMK,187,21,['destroyed'],https://i.postimg.cc/htHz1zp6/3f6.png,_a6dbf0dc6cbea74a4ec0,14/05/2022
+3249,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB with ZU-23 AA gun,37,1,['abandoned'],https://i.postimg.cc/8kynTp9c/1030-unkn-t72-and-MT-LB-with-ZU-23-aband-31-10-23.jpg,_5c6e8dc8cad68aaec546,02/11/2023
+3301,RU,['the Soviet Union'],Armoured Fighting Vehicles,Unknown BTR-D/BMD-2,11,9,['destroyed'],https://i.postimg.cc/7hTV65zt/1001-BMD-2-or-BTR-D-destr-10-05-23.jpg,_8d8bba7b90fedb3f1619,27/05/2023
+3302,RU,['the Soviet Union'],Armoured Fighting Vehicles,Unknown BTR-D/BMD-2,11,10,['destroyed'],https://i.postimg.cc/DZ7pVVyR/1002-unkn-bmd-destr-24-07-23.jpg,_a7563e95ec7072641b48,24/07/2023
+3303,RU,['the Soviet Union'],Armoured Fighting Vehicles,Unknown BTR-D/BMD-2,11,11,['destroyed'],https://i.postimg.cc/tJMBVYtH/1003-unkn-bmd-destr-24-07-23.jpg,_1f26973bdf5b0846cd4c,24/07/2023
+3362,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,57,['destroyed'],https://i.postimg.cc/5t4BrG8W/1004-unkn-afv-destr-19-06-23.jpg,_206a3b80330b41284810,21/06/2023
+3403,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,98,['destroyed'],https://twitter.com/UAWeapons/status/1536670455322525696,_403457524512313608a4,14/06/2022
+3408,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,103,['destroyed'],https://i.postimg.cc/VNyTMw9x/431.png,_4778bf175f52f911d480,28/06/2022
+3411,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,106,['destroyed'],https://twitter.com/UAWeapons/status/1545032059491688449,_f02ea9c7eac7fb7bd8c2,07/07/2022
+3434,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,129,['destroyed'],https://twitter.com/UAWeapons/status/1557115825303298049,_ddd9e741d0f07f397b48,10/08/2022
+3438,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,133,['destroyed'],https://i.postimg.cc/gkxRLbgp/1002.jpg,_000973d0cf357d72bf05,08/07/2022
+3492,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,186,['destroyed'],https://i.postimg.cc/65hfLF6x/254.png,_f69ddd8afe64c03f0227,05/09/2023
+3493,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,187,['destroyed'],https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_5e650c410d2dac309169,17/10/2023
+3495,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,189,['destroyed'],https://i.postimg.cc/8C3B4wGG/1007-16-10-23.jpg,_e80ee8912cb8f5f3f9d2,17/10/2023
+3496,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,190,['destroyed'],https://i.postimg.cc/cHdkRSB5/1003-unkn-afv-destr-16-10-23.png,_21beacd1baf615bb24ad,18/10/2023
+3497,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,191,['destroyed'],https://i.postimg.cc/8C8TcmQV/1005-unkn-tank-and-btr82-aband-2x-unkn-afv-destr-20-10-23.jpg,_228a722da32765e70ee5,25/10/2023
+3498,RU,['Russia'],Armoured Fighting Vehicles,Unknown AFV,208,192,['destroyed'],https://i.postimg.cc/8C8TcmQV/1005-unkn-tank-and-btr82-aband-2x-unkn-afv-destr-20-10-23.jpg,_053ea567b23b630d9b6c,25/10/2023
+3521,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,8,['destroyed'],https://i.postimg.cc/zGvL43bp/553.png,_30e79b93c4b903cbb30f,12/03/2022
+3532,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,19,['destroyed'],https://i.postimg.cc/cC4qqnch/29.jpg,_d6f70a893bf71496be82,21/04/2022
+3655,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,143,['destroyed'],https://i.postimg.cc/X7spbVS1/1005-1x-bmp1-destr-1x-bmp2-destr-25-01-23.jpg,_92449c4f548c49cca320,25/01/2023
+3676,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,164,['destroyed'],https://i.postimg.cc/prqKJgnq/1039-bmp1-destr-20-02-23.jpg,_075b3994c0a5a3f23a98,20/02/2023
+3683,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,171,['destroyed'],https://i.postimg.cc/fygLV2wj/1013-bmp1-destr-23-02-23.jpg,_be3ef13b8c1d2059452b,23/02/2023
+3723,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,211,['destroyed'],https://i.postimg.cc/1tyjbLyk/329.png,_645714c1983c33442bfc,08/04/2023
+3736,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,224,['destroyed'],https://i.postimg.cc/cCWRbCcR/1008-t72b-bmp1-destr-25-04-23.jpg,_41835cbae76543e70335,27/04/2023
+3778,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,266,['destroyed'],https://i.postimg.cc/BnM0qg2R/1000-bmp1-dam-06-07-23.jpg,_06a6a7146aa128f85c12,08/07/2023
+3799,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,287,['destroyed'],https://i.postimg.cc/T3KNnqyL/1046-bmp1-destr-28-04-23.jpg,_7afd63dc3fee1b100fef,19/07/2023
+3800,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,288,['destroyed'],https://i.postimg.cc/bw4CgDb6/1047-bmp1-destr-28-04-23.jpg,_c302078b8c8a2a438def,19/07/2023
+3816,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,304,['destroyed'],https://i.postimg.cc/rskGFK33/1003-bmp1-destr-25-07-23.jpg,_8f4676eb44f33da8b956,27/07/2023
+3824,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,312,['destroyed'],https://i.postimg.cc/7LbYj3mh/1016-2x-t80bv-1x-destr-1x-aband-1x-bmp1-destr-14-08-23.jpg,_67a3c10a69c08f2766cc,14/08/2023
+3886,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,374,['destroyed'],https://i.postimg.cc/8C3B4wGG/1007-16-10-23.jpg,_9020623c14ed1d47a845,17/10/2023
+3895,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,383,['destroyed'],https://i.postimg.cc/BQyQd1gR/1001-bmp1-destr-24-10-23.jpg,_b0af53bcd7e0d675a5fd,25/10/2023
+3933,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,2,"['damaged', 'abandoned']",https://i.postimg.cc/QMPbRrpP/8j.png,_24f2e6b41b4647db8270,13/05/2022
+3940,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,9,['abandoned'],https://twitter.com/UAWeapons/status/1590375007930417152,_c4a0b455ff93b3fd8ccb,09/11/2022
+3975,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,44,"['damaged', 'abandoned']",https://i.postimg.cc/SRR2SMT3/1040-1x-unkn-tank-destr-2x-bmp1-dam-aband-04-11-23.jpg,_2f79beccabd36bdcc0f9,05/11/2023
+3976,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,45,"['damaged', 'abandoned']",https://i.postimg.cc/SRR2SMT3/1040-1x-unkn-tank-destr-2x-bmp1-dam-aband-04-11-23.jpg,_88692f6338cf2108a22a,05/11/2023
+4007,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,31,['captured'],https://i.postimg.cc/kGp8z952/Screenshot-9133.png,_88b4a897640a7eae00d9,12/03/2022
+4067,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,91,['captured'],https://i.postimg.cc/9FdNXqSm/1005-bmp1-capt.jpg,_e3cb0f3fca2aa250115f,27/12/2022
+4133,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,29,['destroyed'],https://postlmg.cc/jny01hRh,_a7f768f1dcab88b7479f,12/03/2022
+4137,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,33,['destroyed'],https://i.postimg.cc/ydz8Z3P1/3217.png,_abe23844a1d12e19e734,02/04/2023
+4159,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,55,['destroyed'],https://i.postimg.cc/3J2MMTkK/m2.png,_78570b0dc272e6329304,25/03/2022
+4163,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,59,['destroyed'],https://i.postimg.cc/PJG6KCz1/m6.png,_c009ca99c36a2f224bb2,25/03/2022
+4260,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,156,['destroyed'],https://i.postimg.cc/wMMvydQ7/43f1.png,_2a5735605062fe13a2c9,06/05/2022
+4290,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,186,['destroyed'],https://i.postimg.cc/kGXzqNJk/877.jpg,_fa69cfbf6e5e68c34d51,01/06/2022
+4351,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,247,['destroyed'],https://i.postimg.cc/4NY2VM7X/1017-unkn-BMP.jpg,_41e78a4a2f82d31c57ca,27/07/2022
+4361,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,257,['destroyed'],https://postimg.cc/wydhNQq8,_240104c80ab991865f7d,03/09/2022
+4378,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,274,['destroyed'],https://postlmg.cc/G4pYTHHR,_5eca2810f2c499e12810,10/04/2023
+4408,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,304,['destroyed'],https://i.postimg.cc/hPn9K6Xn/1020-1x-t72b-2x-bmp1-1x-bmp2-destr.jpg,_bbfa70e1d76514bd8101,07/10/2022
+4418,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,314,['destroyed'],https://i.postimg.cc/xCPYQ1mM/1001-bmp2-destr.jpg,_9a2c83bdb78420ffcb93,12/10/2022
+4503,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,399,['destroyed'],https://i.postimg.cc/yxm6p0t4/1006-bmp2-destr.jpg,_f247bf6aaa4523e2a4db,12/12/2022
+4604,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,500,['destroyed'],https://twitter.com/UAWeapons/status/1638845891254558720,_74b85d58060469328288,25/03/2023
+4686,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,582,['destroyed'],https://i.postimg.cc/1tPBwNfk/1027-bmp2-destr-22-06-23.jpg,_17ad0bda1f88c4742976,24/07/2023
+4755,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,651,['destroyed'],https://i.postimg.cc/0QfgVqV7/1056-bmp2-destr-03-10-23.jpg,_2341a8dcdaa466aff1ef,04/10/2023
+4756,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,652,['destroyed'],https://i.postimg.cc/tTVQCLz6/1066-BMP-2-K-destr-30-03-22.jpg,_79fd234a7069198b9ecd,05/10/2023
+4762,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,658,['destroyed'],https://twitter.com/UAWeapons/status/1712552062364561824,_8da196224b41d9fb191b,14/10/2023
+4763,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,659,['destroyed'],https://twitter.com/UAWeapons/status/1712552062364561824,_91a574e2241da86edb8e,14/10/2023
+4764,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,660,['destroyed'],https://i.postimg.cc/DwcdZ1KV/1002-T-64-BV-AMN-590951-and-BMP2-destr-13-10-23.jpg,_a26bfdd97f8c3aa33eb7,14/10/2023
+4765,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,661,['destroyed'],https://i.postimg.cc/TwyDr4pb/1013-bmp2-destr-13-10-23.jpg,_6bdb9c1b3abab363701b,14/10/2023
+4773,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,669,['destroyed'],https://i.postimg.cc/B6hdPYVv/1044-bmp2-destr-18-10-23.jpg,_933123d89e7290593851,21/10/2023
+4851,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,33,"['damaged', 'abandoned']",https://i.postimg.cc/NF4LLtyM/1004-2x-bmp2-dam-aband-1x-BTR82-A-destr-25-01-23.jpg,_c04e73d3f385141b09cd,25/01/2023
+4852,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,34,"['damaged', 'abandoned']",https://i.postimg.cc/NF4LLtyM/1004-2x-bmp2-dam-aband-1x-BTR82-A-destr-25-01-23.jpg,_7c4f06049533fe3115a5,25/01/2023
+4868,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,50,"['damaged', 'abandoned']",https://i.postimg.cc/wM3zbrF6/4430.png,_4f576adbfac0a279f285,07/04/2023
+4879,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,61,"['damaged', 'abandoned']",https://i.postimg.cc/0NfNx9pj/2249.png,_966bad42d7fae2ff4209,20/09/2023
+4881,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,63,['abandoned'],https://i.postimg.cc/k44Hjd9L/3g3.png,_93a4b64ca79cb96a49a2,20/09/2023
+4882,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,64,"['damaged', 'abandoned']",https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_b4e83029af53ced90eb1,17/10/2023
+4883,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,65,"['damaged', 'abandoned']",https://i.postimg.cc/FHtWY9Hy/1026-bmp2-dam-aband-24-10-23.jpg,_fda4f387c9fdd20db655,28/10/2023
+4884,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,66,"['damaged', 'abandoned']",https://i.postimg.cc/fR4pJxQy/1006-bmp2-dam-aband-20-10-23.jpg,_51de20ea6c80aeedf9a6,02/11/2023
+4953,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,65,['captured'],https://i.postimg.cc/tJ0ZVgRD/6662.jpg,_066e9cd6d35eea35f52e,09/03/2022
+5135,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,247,['captured'],https://i.postimg.cc/hP7xJFTW/1017-BMP-2-capt-10-10-23.jpg,_8a50af57792de803dc3b,11/10/2023
+5148,RU,['Russia'],Infantry Fighting Vehicles,BMP-2M Berezhok,28,13,['destroyed'],https://i.postimg.cc/kGR6cDMd/1002-bmp2-destr-19-03-23.jpg,_c71081b58fd903b627f7,19/03/2023
+5151,RU,['Russia'],Infantry Fighting Vehicles,BMP-2M Berezhok,28,16,['destroyed'],https://i.postimg.cc/Y9NS7W04/1044-BMP-2-M-destr-07-10-23.jpg,_9c94ff16370c61cce4c8,08/10/2023
+5152,RU,['Russia'],Infantry Fighting Vehicles,BMP-2M Berezhok,28,17,['destroyed'],https://i.postimg.cc/jSHF19mV/1011-bmp2m-destr-22-10-23.jpg,_34bd969af3855aa19a8a,24/10/2023
+5153,RU,['Russia'],Infantry Fighting Vehicles,BMP-2M Berezhok,28,18,['destroyed'],https://i.postimg.cc/59DdmWt0/1039-BMP-2-M-destr-31-08-23.jpg,_f1bfac9040dc0a48b62f,28/10/2023
+5192,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,14,['destroyed'],https://i.postimg.cc/sfcTzjyx/g5.jpg,_b0a38c9b892d8f93e963,20/05/2022
+5196,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,18,['destroyed'],https://i.postimg.cc/y8NYpkhG/1000-unkn-bmp-destr-24-05-23.jpg,_5271eaf27c2ce37f63c3,25/05/2023
+5204,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,26,['destroyed'],https://twitter.com/UAWeapons/status/1531369866061664256,_a85df83756d1d2ff1bca,30/05/2022
+5222,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,44,['destroyed'],https://i.postimg.cc/zG8P77HB/4f5.png,_cf10cfa93694a84ede8b,28/06/2022
+5295,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,117,['destroyed'],https://i.postimg.cc/Y95VN0Y8/3288.png,_c66240173abdd79d0af7,04/09/2023
+5298,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,120,['destroyed'],https://postimg.cc/svJzLwv2,_73ae2b3fbeb8d4099707,05/09/2023
+5299,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,121,['destroyed'],https://i.postimg.cc/T3rkmZKZ/1032-unkn-bmp-destr-15-10-23.jpg,_4abee815a07121bc9509,28/10/2023
+5301,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,123,['destroyed'],https://i.postimg.cc/D0zfLVx8/1022-3x-unkn-bmp-destr-30-10-23.jpg,_1e6acb1b2f38c6f0f907,31/10/2023
+5302,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,124,['destroyed'],https://i.postimg.cc/D0zfLVx8/1022-3x-unkn-bmp-destr-30-10-23.jpg,_98a790b53b4ccb01c791,31/10/2023
+5306,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,1,"['damaged', 'abandoned']",https://i.postimg.cc/vmWTdr9s/8j.png,_7e5cbc13f4776e02450d,13/05/2022
+5307,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,2,"['damaged', 'abandoned']",https://i.postimg.cc/nz2SWCgX/31d.png,_66dee4c0d04cf8627cf7,28/03/2023
+5308,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,3,['abandoned'],https://i.postimg.cc/3RQMCm3n/a2.png,_dd4adbd7244a96054925,08/04/2023
+5309,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,4,"['damaged', 'abandoned']",https://i.postimg.cc/jdKxj2FJ/1019-2x-T64bv-destr-18-07-23.jpg,_a4d63fb1a75d97b1c160,19/07/2023
+5310,RU,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,134,5,['abandoned'],https://i.postimg.cc/d1SSvC9q/1033-unkn-bmp1-2-aband-31-10-23.jpg,_e47818a58ae27b3af0c7,02/11/2023
+5443,RU,['Russia'],Infantry Fighting Vehicles,BMP-3,301,134,['destroyed'],https://i.postimg.cc/9XDv88CC/1024-bmp3-destr-04-02-23.jpg,_9a82d3be58b6b4ece0a8,12/02/2023
+5474,RU,['Russia'],Infantry Fighting Vehicles,BMP-3,301,165,['destroyed'],https://twitter.com/naalsio26/status/1682907021618696192,_1c990066370930c9b3c2,23/07/2023
+5519,RU,['Russia'],Infantry Fighting Vehicles,BMP-3,301,15,['damaged'],https://i.postimg.cc/tCbqt238/1023-bmp3-dam-27-04-23.jpg,_2ce0b75e6c59771760f5,05/05/2023
+5525,RU,['Russia'],Infantry Fighting Vehicles,BMP-3,301,21,['damaged'],https://i.postimg.cc/9FdjL0ny/1044-bmd-3-dam-02-08-23.jpg,_99f0ecea47186cddf732,03/08/2023
+5790,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMD-2,240,148,['destroyed'],https://i.postimg.cc/fb6nzqTp/1021-bmd2-destr-28-07-23.jpg,_947957ffccf1843c59d0,31/07/2023
+5805,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMD-2,240,163,['destroyed'],https://i.postimg.cc/Bvzf3q2s/1055-BMD-2-destr-22-09-23.jpg,_ee9e212aa324a1f24ebc,05/10/2023
+5809,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMD-2,240,167,['destroyed'],https://i.postimg.cc/ncgVjPBh/1033-BMD-2-destr-25-10-23.jpg,_3b4cac1bee39a21970f1,31/10/2023
+5959,RU,['Russia'],Infantry Fighting Vehicles,BMD-4M,92,2,"['damaged', 'abandoned']",https://i.postimg.cc/zv6MwhLd/1002-bmd4m-dam-aband-31-10-23.jpg,_6013a80d8765a5c06b80,02/11/2023
+5971,RU,['Russia'],Infantry Fighting Vehicles,BMD-4M,92,2,"['damaged', 'captured']",https://i.postimg.cc/44w2nPnd/1019-BMD-4-M-dam-capt-18-08-23.jpg,_0d51ef78c6c2ff2a99fe,20/08/2023
+5978,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,7,['destroyed'],https://i.postimg.cc/vTB5NYNc/1001.jpg,_2f5ccf488b50457d68a8,21/07/2022
+5994,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,23,['destroyed'],https://i.postimg.cc/DyJs79db/766.jpg,_09d643f607301725e616,22/03/2022
+5996,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,25,['destroyed'],https://twitter.com/UAWeapons/status/1506219574508892165,_13ef796044241ac9e8cc,23/03/2022
+6235,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,264,['destroyed'],https://i.postimg.cc/h4QGG5T3/1040-btr82a-destr-25-02-23.jpg,_3c287f949159c8c0581b,03/03/2023
+6238,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,267,['destroyed'],https://i.postimg.cc/9M9rcKBy/1020-btr82a-destr-07-03-23.jpg,_57e3ac4929837f470a93,08/03/2023
+6245,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,274,['destroyed'],https://i.postimg.cc/VLZjrPwN/1018-BTR-82-A-destr-16-02-23.jpg,_504bfb22ef9a4f1173d8,20/02/2023
+6321,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,350,['destroyed'],https://i.postimg.cc/RFhrXLcD/1050-4x-btr-82-and-unkn-tank-destr-destr-20-10-23.jpg,_011cfea9e19b1b425ecc,21/10/2023
+6322,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,351,['destroyed'],https://i.postimg.cc/g2ZmFWBH/1020-2x-btr82a-destr-19-10-23.jpg,_706a3b85ebe8f7353642,21/10/2023
+6323,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,352,['destroyed'],https://i.postimg.cc/g2ZmFWBH/1020-2x-btr82a-destr-19-10-23.jpg,_3fc744d406d65ed28d00,21/10/2023
+6349,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,378,['destroyed'],https://twitter.com/bayraktar_1love/status/1720163629692027217,_21403061e11edce4e6a8,05/11/2023
+6381,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,4,['abandoned'],https://i.postimg.cc/kXN1jSHW/6h.png,_9083b7cbaa8b6bc9d4d9,16/04/2023
+6388,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,11,"['damaged', 'abandoned']",https://i.postimg.cc/8C8TcmQV/1005-unkn-tank-and-btr82-aband-2x-unkn-afv-destr-20-10-23.jpg,_9d703d79025689312569,25/10/2023
+6552,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,185,26,['destroyed'],https://i.postimg.cc/4N9bkGGF/55g.png,_d6c768ae3ca000933751,28/06/2022
+6555,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,185,29,['destroyed'],https://i.postimg.cc/q7yrqVbh/1001.jpg,_cd27d339eabcd292e48c,16/07/2022
+6579,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,185,53,['destroyed'],https://i.postimg.cc/G2G6CbgT/2022-09-28-btr-80.jpg,_a605b314bb4fc565af18,17/10/2022
+6652,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,185,7,"['damaged', 'abandoned']",https://i.postimg.cc/056Mq5Lk/1065-btr80-dam-aband-11-10-23.jpg,_143bbea51bb5c80a3332,01/11/2023
+6722,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,13,['destroyed'],https://i.postimg.cc/1tLZgvKt/1011-unkn-btr-destr.jpg,_d38cdacfb1aecac00193,25/11/2022
+6724,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,15,['destroyed'],https://twitter.com/UAWeapons/status/1528848223519088644,_818a9d43e253e54aa29d,24/05/2022
+6725,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,16,['destroyed'],https://i.postimg.cc/G35SRpK4/221.jpg,_f3039f01021c7d5bc006,28/05/2022
+6743,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,34,['destroyed'],https://twitter.com/UAWeapons/status/1569658125824786434,_1c04b2ef520440b49150,13/09/2022
+6752,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,43,['destroyed'],https://i.postimg.cc/sf8LsYCJ/1011-BTR-80-82-destr-01-08-23.jpg,_19c2f77e8c99714fc3c3,03/08/2023
+6753,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,44,['destroyed'],https://i.postimg.cc/NFj3N78m/1054-BTR-80-or-82-destr-04-10-23.jpg,_e5b9099f8e986307dc44,11/10/2023
+6826,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-D,81,49,['destroyed'],https://i.postimg.cc/tCdN7kWs/1011-btr-d-destr-04-07-23.jpg,_48db5adf8cb763dcd43a,06/07/2023
+6835,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-D,81,5,['abandoned'],https://i.postimg.cc/LXc2pJCx/1028-BTR-D-aband-13-06-23.jpg,_b1e3844253b4563a8e92,13/06/2023
+6836,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-D,81,6,"['damaged', 'abandoned']",https://i.postimg.cc/C5Hs9B4P/1029-BTR-D-dam-aband-13-08-23.jpg,_6c82edf7fda2eb6bb5b8,14/08/2023
+6858,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-D,81,22,['captured'],https://i.postimg.cc/DwVTGSbj/1036-BTR-D-capt-07-09-22.jpg,_8481fb8853fe89e26a19,02/11/2023
+6896,RU,['Russia'],Mine-Resistant Ambush Protected ,KamAZ-63968 Typhoon,26,10,['destroyed'],https://i.postimg.cc/mrMqNgQD/1032-Kam-AZ-63968-Typhoon-K-destr.png,_9f32d837176f1bc03122,09/10/2022
+6926,RU,['Russia'],Mine-Resistant Ambush Protected ,K-53949 Linza,12,3,['destroyed'],https://i.postimg.cc/fL424R3C/1012-linza-mrap.jpg,_e0f35d25511d0a25340b,08/09/2022
+6990,RU,['Russia'],Infantry Mobility Vehicles,GAZ Tigr-M,157,36,['destroyed'],https://i.postimg.cc/25GZskrd/t3.jpg,_273b4b1d9d7993eb8fa1,17/03/2022
+7123,RU,['Russia'],Infantry Mobility Vehicles,AMN-590951,15,3,"['damaged', 'abandoned']",https://i.postimg.cc/7PR195f6/1045-ural-59095-dam-aband-18-10-23.jpg,_c3833924af9e73884059,21/10/2023
+7159,RU,['Russia'],Infantry Mobility Vehicles,GAZ-3937 Vodnik,1,1,['captured'],https://twitter.com/oryxspioenkop/status/1640854498062090240,_87504d67454a7d828fea,29/03/2023
+7193,RU,['Russia'],Command Posts And Communications Stations ,R-145BMA command vehicle,1,1,['captured'],https://twitter.com/UAWeapons/status/1575123760528719875,_1de903d6808710258fea,28/09/2022
+7247,RU,['Russia'],Command Posts And Communications Stations ,R-149MA1 command and staff vehicle,82,1,['captured'],https://i.postimg.cc/kgBKhrFT/884.png,_9eb045c795c3e24f4ce3,27/02/2022
+7276,RU,['Russia'],Command Posts And Communications Stations ,R-149MA1 command and staff vehicle,82,30,['captured'],https://twitter.com/UAWeapons/status/1590771444002488320,_b1b7cdebb76a326ead0d,10/11/2022
+7464,RU,['Russia'],Engineering Vehicles And Equipment ,RKhM-6 Povozka CBRN reconnaissance vehicle,9,7,['destroyed'],https://i.postimg.cc/3J69bhXQ/1014-RKh-M-6-CBRN-reconnaissance-vehicle-destr-05-01-23.jpg,_dd05b108479813420035,05/01/2023
+7465,RU,['Russia'],Engineering Vehicles And Equipment ,RKhM-6 Povozka CBRN reconnaissance vehicle,9,8,['destroyed'],https://i.postimg.cc/g2hknppQ/1018-RKh-M-6-CBRN-destr-16-01-23.jpg,_64c90344370aea6b75a7,17/01/2023
+7493,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,BREM-1 armoured recovery vehicle,48,11,['destroyed'],https://i.postimg.cc/BvDmnR05/1002-brem1-destr-08-08-23.jpg,_91e0ad9684d71a28e7cb,08/08/2023
+7503,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,BREM-1 armoured recovery vehicle,48,21,['destroyed'],https://i.postimg.cc/N0FCZBdg/1004-BREM-1-destr-27-10-23.jpg,_f700c4193ee14625264a,31/10/2023
+7552,RU,['Russia'],Engineering Vehicles And Equipment ,MTP-A2 recovery vehicle,3,3,['abandoned'],https://i.postimg.cc/jjbYvXFc/g3.png,_c1957fc77a629f389ffe,05/03/2022
+7631,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,6,['captured'],https://i.postimg.cc/X7wjb8tg/Screenshot-8214.png,_3582641839387adf39c0,26/02/2022
+7632,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,7,['captured'],https://i.postimg.cc/Y0Fpjf0M/Screenshot-8216.png,_cdc35bc1c633fee433cf,26/02/2022
+7633,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,8,['captured'],https://i.postimg.cc/FHN9sS4X/Screenshot-8217.png,_f8e67722fa6edad6a326,26/02/2022
+7634,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,9,['captured'],https://i.postimg.cc/y8cSr8c9/3321.png,_2b5a53ab8b4a383dccf3,10/03/2022
+7635,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,10,['captured'],https://i.postimg.cc/bJJr8yDm/f6.png,_5a6835e0c9d6fccdedd6,10/03/2022
+7636,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,11,['captured'],https://i.postimg.cc/bJcHhFdy/32dd.png,_c37faa3dcc6d9470db78,03/04/2022
+7637,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,12,['captured'],https://i.postimg.cc/XqyXXmYs/75.png,_fe1491a93ef04e79a7ff,06/04/2022
+7638,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,13,['captured'],https://i.postimg.cc/283hr2WJ/tm1.jpg,_2aedaed0af1136f896b7,06/04/2022
+7639,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,14,['captured'],https://i.postimg.cc/KvdwSrzj/889.jpg,_70e3d91a8a7cff7b4547,21/04/2022
+7640,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,15,['captured'],https://i.postimg.cc/1Rw9WSrx/1005-tmm-3.jpg,_a038649262f3f590d625,30/09/2022
+7641,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,16,['captured'],https://i.postimg.cc/9QtNR27B/image.jpg,_3e790e069a5d3d6ef471,20/12/2022
+7642,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,TMM-3 bridge layer,28,17,"['damaged', 'captured']",https://i.postimg.cc/85dm6pjK/44565.png,_6c8b03a983a349c066c8,01/03/2022
+7681,RU,['Russia'],Engineering Vehicles And Equipment ,PP-2005 floating bridge,29,3,['captured'],https://i.postimg.cc/P55BWBXd/58.png,_b58d92afbe78ff5737c5,10/04/2022
+7682,RU,['Russia'],Engineering Vehicles And Equipment ,PP-2005 floating bridge,29,4,['captured'],https://i.postimg.cc/dthWRbGf/1014-PP-2005-pontoon-6-11.jpg,_273e8f13f96b8767d24a,07/11/2022
+7727,RU,['Russia'],Engineering Vehicles And Equipment ,KamAZ-5350 with EOV-3523 excavator,19,2,['captured'],https://i.postimg.cc/dQZQWvBp/Screenshot-8218.png,_a1cbecf40c806fdf2b94,26/02/2022
+7728,RU,['Russia'],Engineering Vehicles And Equipment ,KamAZ-5350 with EOV-3523 excavator,19,3,['captured'],https://i.postimg.cc/T30TyPdL/Screenshot-8219.png,_26aad214942c348dac3a,26/02/2022
+7729,RU,['Russia'],Engineering Vehicles And Equipment ,KamAZ-5350 with EOV-3523 excavator,19,4,['captured'],https://i.postimg.cc/1tZrSqJQ/41.png,_a8f76ba9a15c769bcc8c,29/03/2022
+7730,RU,['Russia'],Engineering Vehicles And Equipment ,KamAZ-5350 with EOV-3523 excavator,19,5,['captured'],https://twitter.com/UAWeapons/status/1584932053615022081,_9b0da4c9abae86ef8948,25/10/2022
+7780,RU,['the Soviet Union'],Self-Propelled Anti-Tank Missile Systems,9P149 Shturm-S,36,1,['destroyed'],https://i.postimg.cc/FKPZs7Ws/874.png,_71bf71f59e981e345c3c,25/02/2022
+7783,RU,['the Soviet Union'],Self-Propelled Anti-Tank Missile Systems,9P149 Shturm-S,36,4,['destroyed'],https://twitter.com/UAWeapons/status/1522928504937066497,_62adbbf7d688df4c7bbf,07/05/2022
+7791,RU,['the Soviet Union'],Self-Propelled Anti-Tank Missile Systems,9P149 Shturm-S,36,12,['destroyed'],https://i.postimg.cc/yxdfdFRP/1005-shturm-s-destr-31-03-23.jpg,_d4145926c4b0a06e9f40,24/07/2023
+7792,RU,['the Soviet Union'],Self-Propelled Anti-Tank Missile Systems,9P149 Shturm-S,36,13,['destroyed'],https://i.postimg.cc/9Mxphx2Y/32.png,_11e922ddedb85a661005,26/09/2023
+7964,RU,['the Soviet Union'],Towed Artillery ,100mm MT-12 anti-tank gun,29,5,['captured'],https://i.postimg.cc/c4m22Vn1/1004-mt-12-capt.jpg,_708616fb1863c4aeda5a,14/10/2022
+7965,RU,['the Soviet Union'],Towed Artillery ,100mm MT-12 anti-tank gun,29,6,['captured'],https://i.postimg.cc/rmvCS2HL/1000-mt12-capt-21-10.jpg,_531ae1166b4a0f71839b,17/11/2022
+7966,RU,['the Soviet Union'],Towed Artillery ,100mm MT-12 anti-tank gun,29,7,['captured'],https://i.postimg.cc/ydJZm3wd/1019-mt12-capt.jpg,_7fc7d9c19ee8e2a15339,10/12/2022
+7967,RU,['the Soviet Union'],Towed Artillery ,100mm MT-12 anti-tank gun,29,8,['captured'],https://i.postimg.cc/WzpFyZdX/1021-mt12-capt-03-04-22.jpg,_680887648c157efed28f,17/05/2023
+8027,RU,['the Soviet Union'],Towed Artillery ,122mm D-30 howitzer,84,7,['damaged'],https://i.postimg.cc/qvXxZcSn/1028-ural4320-destr-d30-dam-26-07-23.jpg,_24c673b8aa6573ff1334,20/08/2023
+8028,RU,['the Soviet Union'],Towed Artillery ,122mm D-30 howitzer,84,8,['damaged'],https://i.postimg.cc/8ChZW4nt/1031-d30-dam-11-10-23.jpg,_e6d81d812d9880cd3cf2,14/10/2023
+8112,RU,['the Soviet Union'],Towed Artillery ,152mm 2A65 Msta-B howitzer,117,27,['destroyed'],https://i.postimg.cc/c1DJW5Yh/1038-msta-b-destr.jpg,_9013627a6140adc6be77,14/10/2022
+8153,RU,['the Soviet Union'],Towed Artillery ,152mm 2A65 Msta-B howitzer,117,68,['destroyed'],https://i.postimg.cc/Rh4Dsf8Y/1024-Msta-B-destr-30-10-23.jpg,_85c88e93d06fa46b20f1,31/10/2023
+8202,RU,['the Soviet Union'],Towed Artillery ,152mm 2A65 Msta-B howitzer,117,36,['captured'],https://i.postimg.cc/05T77GvK/1007-3x-Msta-B-capt-30-11-22.jpg,_a4c4ae24b370eca8466e,18/10/2023
+8508,RU,['the Soviet Union'],Self-Propelled Artillery ,152mm 2S3(M) Akatsiya,148,109,['destroyed'],https://i.postimg.cc/fycxvHvq/1011-2-S3-destr-01-11-23.jpg,_dabf2415a9f877fd4e09,02/11/2023
+8584,RU,['the Soviet Union'],Self-Propelled Artillery ,152mm2S5 Giatsint-S,53,37,['destroyed'],https://i.postimg.cc/CKcQKPWq/1008-2s5-destr-18-10-23.jpg,_c4ad9b27b8c59b17d1d6,18/10/2023
+8585,RU,['the Soviet Union'],Self-Propelled Artillery ,152mm2S5 Giatsint-S,53,38,['destroyed'],https://i.postimg.cc/1tDwXX5R/1036-2-S5-destr-20-10-23.jpg,_3485da94b14b1530fcc2,21/10/2023
+8586,RU,['the Soviet Union'],Self-Propelled Artillery ,152mm2S5 Giatsint-S,53,39,['destroyed'],https://i.postimg.cc/cLC3Gz3V/1010-2-S5-destr-25-10-23.jpg,_b34fd27057e64239f678,28/10/2023
+8587,RU,['the Soviet Union'],Self-Propelled Artillery ,152mm2S5 Giatsint-S,53,40,['destroyed'],https://i.postimg.cc/3NWT8dWb/1031-2-S5-destr-04-11-23.jpg,_c2878eaf915b41c42df6,05/11/2023
+8887,RU,['the Soviet Union'],Multiple Rocket Launchers ,122mm BM-21 Grad,181,46,['destroyed'],https://i.postimg.cc/QM7VRn5Y/2022-07-27-bm-21.jpg,_d9b8335c225a1ab6aa54,17/10/2022
+8892,RU,['the Soviet Union'],Multiple Rocket Launchers ,122mm BM-21 Grad,181,51,['destroyed'],https://i.postimg.cc/tgwD6TWq/1012-bm21-destr.jpg,_715c8fc68d49967ab8a9,08/11/2022
+9625,RU,['Russia'],Helicopters,Mi-28 attack helicopter,13,1,['destroyed'],https://twitter.com/oryxspioenkop/status/1502605989400489990,_9f6860ea8d6e42c58b0a,12/03/2022
+9736,RU,['Russia'],Reconnaissance Unmanned Aerial Vehicles,Orlan-10,159,16,['destroyed'],https://i.postimg.cc/7YFSSDws/498.png,_5ebe612cb9130c02fabf,21/04/2022
+10097,RU,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,29,1,['destroyed'],https://i.postimg.cc/gc8PP5ZG/d3.png,_a71c872d9bdc20d9a53d,05/03/2022
+10107,RU,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,29,11,['destroyed'],https://i.postimg.cc/ZKrK0wN7/1016-Zi-L131-destr.jpg,_c1ca0917c5f707ae02e2,16/12/2022
+10117,RU,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,29,1,['abandoned'],https://i.postimg.cc/8k2Hgm1B/Screenshot-8397.png,_14198e762d0cb3e44793,02/03/2022
+10156,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,5,['destroyed'],https://postimg.cc/HVgK3bT0,_61b7996db366f1d6453b,26/02/2022
+10257,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,106,['destroyed'],https://twitter.com/UAWeapons/status/1669360019484315650,_840dab6856505169b585,15/06/2023
+10337,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,186,['destroyed'],https://twitter.com/UAWeapons/status/1543339672096722955,_0aa7cbe8e0076e31e96f,03/07/2022
+10454,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,304,['destroyed'],https://twitter.com/UAWeapons/status/1573665782466224129,_99efa0dac2d60cc0447b,24/09/2022
+10502,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,352,['destroyed'],https://i.postimg.cc/BZ8pDzLb/1003-ural4320-with-23mm-aa-gun-destr-6-11.jpg,_783de5bd8a0811e73b4d,07/11/2022
+10503,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,353,['destroyed'],https://i.postimg.cc/ZRHcHkPv/1037-ural4320-destr-3-11.jpg,_39e4c932340ab68e377a,07/11/2022
+10550,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,400,['destroyed'],https://i.postimg.cc/SsLwH7nL/1017-ural4320-with-zu-23-2-destr-20-12-22.jpg,_1b99a50dfd44e71b2e37,31/12/2022
+10645,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,495,['destroyed'],https://i.postimg.cc/Kv4mpVrR/1032-Ural-4320-with-ZU-23-AA-gun-destr-01-03-23.jpg,_41fba23ac10d22c18e86,22/05/2023
+10665,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,515,['destroyed'],https://i.postimg.cc/8cwqKs6K/1038-ural4320-with-S60-aa-gun-destr-12-06-23.jpg,_185fa54cbcf9770aea2d,13/06/2023
+10666,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,516,['destroyed'],https://i.postimg.cc/V6ZdjsXB/1021-ural4320-destr-18-06-23.jpg,_168e53813c463bd08940,18/06/2023
+10667,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,517,['destroyed'],https://i.postimg.cc/8c9fPXFc/1008-2x-ural4320-destr-16-06-23.jpg,_85b7f3b187240a6f1ec4,21/06/2023
+10669,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,519,['destroyed'],https://i.postimg.cc/3RLDzxYg/1009-ural4320-destr-16-06-23.jpg,_e47731427896a4b79af4,21/06/2023
+10670,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,520,['destroyed'],https://i.postimg.cc/7Y5g80Cb/1025-ural4320-destr-16-06-23.jpg,_d44bbde78fdda5e6bf48,21/06/2023
+10671,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,521,['destroyed'],https://i.postimg.cc/zGmHsMZP/1041-ural4320-destr-20-06-23.jpg,_5ef49bb490cb17a0bf17,21/06/2023
+10672,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,522,['destroyed'],https://i.postimg.cc/wTBMShng/1007-Ural-4320-with-ZU-23-AA-gun-destr-25-05-23.jpg,_30af23e70b91a7a4c003,24/06/2023
+10704,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,554,['destroyed'],https://i.postimg.cc/bYWC1Ckx/1013-URAL-4320-with-57mm-S-60-cannon-destr-12-07-23.jpg,_eec0ab48a3d9e1c9b319,13/07/2023
+10715,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,565,['destroyed'],https://i.postimg.cc/FKnKd1hh/1012-Ural-4320-destr-21-07-23.jpg,_d05a6a9f7808e499be9e,24/07/2023
+10724,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,574,['destroyed'],https://i.postimg.cc/MpKZZv6k/1001-Ural-4320-31-with-a-S-60-destr-04-08-23.jpg,_c46a7cf99c7f47e58c20,05/08/2023
+10733,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,583,['destroyed'],https://i.postimg.cc/sXr9zs0M/1006-ural4320-with-S60-aa-cannon-destr-17-08-23.jpg,_d483c7a30dfcf99d4910,20/08/2023
+10734,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,584,['destroyed'],https://i.postimg.cc/qvXxZcSn/1028-ural4320-destr-d30-dam-26-07-23.jpg,_53179fca15852f923cbd,20/08/2023
+10735,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,585,['destroyed'],https://i.postimg.cc/zXPC44DF/1008-Ural-4320-with-Zu-23-2-destr-22-08-23.jpg,_e7b0514fc63d934f3d4c,23/08/2023
+10787,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,637,['destroyed'],https://i.postimg.cc/rF6PP664/1032-Ural-4320-destr-20-10-23.jpg,_c22657cb93ba1db2eef7,31/10/2023
+10788,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,638,['destroyed'],https://i.postimg.cc/44YD0bmD/1027-Ural-4320-destr-27-10-23.jpg,_26bed155b4e30c57c0d8,31/10/2023
+10789,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,639,['destroyed'],https://i.postimg.cc/4Ndqc7Vp/1009-T-80-BVM-BTR-80-MT-LB-T-72-B3-and-Ural-4320-destr-24-11-22.jpg,_c4000230eca3e5c43dac,02/11/2023
+10790,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,640,['destroyed'],https://i.postimg.cc/xCP6x2yf/1047-Ural-4320-36-with-a-2-B9-Vasilek-destr-05-11-23.jpg,_366fc2357fcbae342c98,05/11/2023
+10791,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,641,['destroyed'],https://i.postimg.cc/nhgSCx1r/1036-Ural-4320-destr-27-10-23.jpg,_ff31cb20489386ad5939,05/11/2023
+10820,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,11,['abandoned'],https://postimg.cc/fVYM97kP,_872553bce693d427b369,02/03/2022
+10821,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,12,['abandoned'],https://i.postimg.cc/GhTrHLBz/1006-Ural-4320.jpg,_b3414d93dc8aef18090d,23/08/2022
+10822,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,13,['abandoned'],https://postimg.cc/VJT1p7p5,_b46dc447c04af5b36b02,02/04/2023
+10823,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,14,['abandoned'],https://i.postimg.cc/jq7w2sb8/1018-ural4320-aband-26-02-22.jpg,_cf4204cdb0b87b699968,17/05/2023
+10824,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,15,"['damaged', 'abandoned']",https://i.postimg.cc/QCtz5WqC/1049-ural4320-dam-aband-25-06-23.jpg,_4cbdbfaa9da6911263f1,27/06/2023
+10945,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,121,['captured'],https://i.postimg.cc/bwx1nJVw/2022-04-01-ural-4320.jpg,_ae69ab9239562f3685e7,17/10/2022
+11152,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-43206,151,5,['destroyed'],https://i.postimg.cc/J4zTrtZW/35.png,_6c26e69cdcaa30b5131f,08/03/2022
+11234,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-43206,151,87,['destroyed'],https://i.postimg.cc/HsFbpn5z/1011-Ural-43206-destr-14-06-23.jpg,_6f8ff3a182a96336023c,21/06/2023
+11238,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-43206,151,91,['destroyed'],https://i.postimg.cc/wBxcJWk7/1017-Ural-4320-with-Zu23-2-destr-06-07-23.jpg,_940d93dbfe02d9aacea3,11/07/2023
+11320,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural Federal,30,22,['destroyed'],https://i.postimg.cc/hjGnRCdm/1038-ural-federal-destr-16-02-23.jpg,_c156c6a3f065bbf6cd0d,01/05/2023
+11349,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-542301 tank transporter,2,1,['abandoned'],https://i.postimg.cc/63s3pqTS/Screenshot-8407.png,_7d33bf91665fe0b767fe,02/03/2022
+11400,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,13,['destroyed'],https://i.postimg.cc/dQmFbzNj/6888.png,_3d868d6a94440bde3ddf,27/02/2022
+11423,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,36,['destroyed'],https://i.postimg.cc/9Fzcz1Vy/1024-Kamaz-6x6-with-ZU-23-2-destr-13-01-23.jpg,_2723409788709a82296a,13/01/2023
+11425,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,38,['destroyed'],https://i.postimg.cc/XY1rcwrp/78.png,_f43cfce8eeb0774a6729,05/03/2022
+11426,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,39,['destroyed'],https://i.postimg.cc/SRc0ZRwz/a3.png,_19838f33ad4c61cc354e,05/03/2022
+11435,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,48,['destroyed'],https://i.postimg.cc/CKtyZSyN/43111.png,_20accde31fc904a4a258,11/03/2022
+11541,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,154,['destroyed'],https://i.postimg.cc/PJj2qx92/kkaamaaaaazza.jpg,_8e7c4f1bfdc1e56d45de,24/05/2022
+11685,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,298,['destroyed'],https://i.postimg.cc/X7yY2cvc/Kam-AZ-6x6-144511-deokupovana-Harkivshhyna-1097-scaled.jpg,_aff9fd5fd3650442e9e3,17/09/2022
+11703,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,316,['destroyed'],https://i.postimg.cc/13xJPk1X/1024-kamaz-6x6-with-Zu-23-2-autocannon.jpg,_3c27840ffef8b737d62e,28/09/2022
+11719,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,332,['destroyed'],https://i.postimg.cc/2jdLSVy5/1009-kamaz-6x6-destr.jpg,_c9056b1dba8cb0eb9e4c,03/10/2022
+11731,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,344,['destroyed'],https://i.postimg.cc/yxNkGZ0m/1009-Kam-AZ6x6-with-zu-23-2-destr.jpg,_350fc90d0fc78b76fbc4,16/10/2022
+11868,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,481,['destroyed'],https://i.postimg.cc/XvNhTFhk/1026-kamaz6x6-destr-20-01-23.jpg,_8a52aae5944731ade788,29/01/2023
+11913,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,526,['destroyed'],https://i.postimg.cc/wvjgdcYC/4f1.png,_8adc19bd0cc0c8bb8e7c,01/04/2023
+11948,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,561,['destroyed'],https://i.postimg.cc/NGzsBwbj/1034-kamaz6x6-destr-18-04-23.jpg,_6aa51f6ace3f91301677,01/05/2023
+11949,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,562,['destroyed'],https://i.postimg.cc/kGB7KjMC/1035-kamaz6x6-destr-18-04-23.jpg,_ed7024f119e1c38d01d0,01/05/2023
+11950,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,563,['destroyed'],https://i.postimg.cc/90KCpGz7/1036-kamaz6x6-destr-18-04-23.jpg,_b932d94416252e82a900,01/05/2023
+11952,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,565,['destroyed'],https://i.postimg.cc/QN1xRHjL/1026-kamaz6x6-destr-27-04-23.jpg,_188e4df4afe67b468097,05/05/2023
+11953,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,566,['destroyed'],https://i.postimg.cc/kXCX9q52/1027-kamaz6x6-destr-27-04-23.jpg,_6f8e9ac628f9f9b548dc,05/05/2023
+11954,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,567,['destroyed'],https://i.postimg.cc/HnwY5P6W/1028-kamaz6x6-destr-27-04-23.jpg,_655e15315866b0fe8a09,05/05/2023
+11973,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,586,['destroyed'],https://i.postimg.cc/VLfzZcCM/1022-Kam-AZ-6x6-destr-24-05-23.jpg,_b78850aef0d4e1b0d1cb,31/05/2023
+12076,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,689,['destroyed'],https://i.postimg.cc/13fbmkBK/1053-Kam-AZ-6x6-destr-28-02-23.jpg,_27bb7cdbe10def2d63a7,05/10/2023
+12079,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,692,['destroyed'],https://i.postimg.cc/sDft8QZq/1051-Kam-AZ-6x6-destr-28-02-23.jpg,_7e4cca99734dfb6ca72c,05/10/2023
+12086,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,699,['destroyed'],https://i.postimg.cc/VNwJN4jm/1022-kamaz6x6-destr-16-10-23.jpg,_486bf45f41bec696f5d9,18/10/2023
+12099,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,712,['destroyed'],https://twitter.com/bayraktar_1love/status/1720542874108854650,_fcfcf7e4550523cf3e06,05/11/2023
+12100,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,713,['destroyed'],https://twitter.com/bayraktar_1love/status/1720542874108854650,_125c9be713ad2a206d87,05/11/2023
+12101,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,714,['destroyed'],https://twitter.com/bayraktar_1love/status/1720542874108854650,_38f256e6376cc5721c35,05/11/2023
+12128,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,13,['abandoned'],https://i.postimg.cc/RC6RYDzZ/Screenshot-8396.png,_dded55b59da8be9e71f6,02/03/2022
+12129,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,14,['abandoned'],https://twitter.com/UAWeapons/status/1591015600046116865,_2438be4f5e213c9bdcb1,11/11/2022
+12141,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,12,['captured'],https://i.postimg.cc/Bbj44g2S/5580.png,_24f34bde409092732c3c,24/02/2022
+12152,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,23,['captured'],https://i.postimg.cc/Z57vYkLt/474.png,_31501df35ba67144120c,22/03/2022
+12153,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,24,['captured'],https://i.postimg.cc/tgbgQWJc/45.png,_947c5fd58a60703031b9,22/03/2022
+12287,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,158,['captured'],https://i.postimg.cc/MKX6jV9N/1016-Kam-AZ-6x6-capt-05-05-22.jpg,_450871e4b79023b78314,24/07/2023
+12288,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6,905,159,['captured'],https://i.postimg.cc/htYWVDvw/1000-kamaz6x6-capt-30-03-22.jpg,_64b282356f7e8b34612d,05/10/2023
+12289,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,1,['destroyed'],https://i.postimg.cc/nc8Fg5Sz/Screenshot-8215.png,_472e937662249f011ae5,26/02/2022
+12375,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,87,['destroyed'],https://i.postimg.cc/MZbWYGvq/1021-Kam-AZ-6x6-tanker-destr-24-05-23.jpg,_f17c60005b84d69c6ff6,31/05/2023
+12376,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,88,['destroyed'],https://i.postimg.cc/q7Tn3F1C/1018-Kam-AZ-6x6-tanker-destr-31-12-22.jpg,_23fa98674ac0a1b48a5a,21/06/2023
+12377,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,89,['destroyed'],https://i.postimg.cc/Jn7kTkVr/1019-Kam-AZ-6x6-tanker-destr-31-12-22.jpg,_2ec9406d609dddc047b5,21/06/2023
+12379,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,91,['destroyed'],https://i.postimg.cc/R0QLS30x/1008-2x-kamaz-tanker-destr-31-07-23.jpg,_643dd4fcb6c68e841276,31/07/2023
+12380,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,92,['destroyed'],https://i.postimg.cc/m2S2GQGN/1006-Kam-AZ-6x6-tanker-destr-02-08-23.jpg,_64ebf0e945d1afc0124e,05/08/2023
+12381,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,93,['destroyed'],https://i.postimg.cc/mDfVrQh2/1011-Kam-AZ-6x6-fuel-tanker-destr-17-08-23.jpg,_55cea9fc33c9a41d49cd,20/08/2023
+12386,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,1,['abandoned'],https://i.postimg.cc/CK9ZnJrc/Screenshot-8398.png,_8a481d5ca220a62ecd1b,02/03/2022
+12393,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,7,['captured'],https://i.postimg.cc/2y9NYXL9/565.jpg,_ac779697da1dfd6e621a,23/04/2022
+12416,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 6x6 tanker,128,30,['captured'],https://i.postimg.cc/x8VjVCm2/1023-Kam-AZ-6x6-fuel-tanker-capt-31-03-23.jpg,_cd9363c7ed5f6949f3b4,08/08/2023
+12521,RU,['Russia'],"Trucks, Vehicles, and Jeeps",KamAZ 'Gorets' 3958,2,2,"['damaged', 'captured']",https://i.postimg.cc/05BPkMNb/1004-Kam-AZ-Avtozaks.jpg,_04275d334373dca983b6,23/08/2022
+12703,RU,['Russia'],"Trucks, Vehicles, and Jeeps",(Unknown) truck,254,1,['destroyed'],https://twitter.com/UAWeapons/status/1498757622211784707,_baf6b06039354dc94cc2,02/03/2022
+12808,RU,['Russia'],"Trucks, Vehicles, and Jeeps",(Unknown) truck,254,106,['destroyed'],https://twitter.com/UAWeapons/status/1540437178928582657,_0336cee0e7f491f9bc1e,28/06/2022
+12935,RU,['Russia'],"Trucks, Vehicles, and Jeeps",(Unknown) truck,254,234,['destroyed'],https://i.postimg.cc/LsKNS1Rv/1017-unkn-truck-destr-25-07-23.jpg,_b130e8c032d4a1bca7b9,25/07/2023
+12936,RU,['Russia'],"Trucks, Vehicles, and Jeeps",(Unknown) truck,254,235,['destroyed'],https://i.postimg.cc/XqqNR0kh/1021-Kam-AZ-6x6-unkn-truck-destr-17-04-23.jpg,_9e0548867a9ae2c3db2f,27/07/2023
+12973,RU,['Russia'],"Trucks, Vehicles, and Jeeps",(Unknown) vehicle,47,17,['destroyed'],https://i.postimg.cc/fRHmxgmg/43f.jpg,_44e89bc57ba421b1d9d3,31/03/2022
+13020,UA,['the Soviet Union'],Tanks,T-64BV,261,9,['destroyed'],https://i.postimg.cc/zfdggTnG/17.png,_800c737cd3c01fb8afc3,04/03/2022
+13051,UA,['the Soviet Union'],Tanks,T-64BV,261,40,['destroyed'],https://i.postimg.cc/s2D0vSXN/6h9.png,_e88b40e77d58aeff3cbf,28/06/2022
+13096,UA,['the Soviet Union'],Tanks,T-64BV,261,85,['destroyed'],https://postimg.cc/ftR1t2H2,_adb956e4f5e510d224ff,25/03/2023
+13121,UA,['the Soviet Union'],Tanks,T-64BV,261,110,['destroyed'],https://i.postimg.cc/vmPmX7SS/2032-T-64-BV-destr-15-05-22.jpg,_e21f6a74ad6ee54d3247,04/12/2022
+13141,UA,['the Soviet Union'],Tanks,T-64BV,261,130,['destroyed'],https://i.postimg.cc/Kjztfyc8/478p.png,_43e3955536a2cc5764f0,21/04/2023
+13155,UA,['the Soviet Union'],Tanks,T-64BV,261,144,['destroyed'],https://i.postimg.cc/wBCKHx29/2051-t64bv-destr-08-06-23.jpg,_8fa668e4885b2756d721,08/06/2023
+13156,UA,['the Soviet Union'],Tanks,T-64BV,261,145,['destroyed'],https://i.postimg.cc/sX2fMmN4/h.png,_55f37f2b157e2fce7a26,09/06/2023
+13174,UA,['the Soviet Union'],Tanks,T-64BV,261,163,['destroyed'],https://i.postimg.cc/FRGZdFj3/2012-T-64-BV-destr-19-10-23.jpg,_3c79737443d2676612c7,21/10/2023
+13180,UA,['the Soviet Union'],Tanks,T-64BV,261,169,['destroyed'],https://i.postimg.cc/j5B6PBms/2016-64-BV-destr-30-10-23.jpg,_3f7f069664d0a786ee23,31/10/2023
+13231,UA,['the Soviet Union'],Tanks,T-64BV,261,17,['captured'],https://i.postimg.cc/JzrNdFy7/478.png,_fc972ff67f83da7cb05e,13/04/2022
+13235,UA,['the Soviet Union'],Tanks,T-64BV,261,21,['captured'],https://i.postimg.cc/QdVzwxpX/b1.jpg,_5d0007c5e410ae8537d3,20/04/2022
+13242,UA,['the Soviet Union'],Tanks,T-64BV,261,28,['captured'],https://i.postimg.cc/DfC3hYw7/35.png,_0b5afe90fbf424057b83,14/05/2022
+13264,UA,['the Soviet Union'],Tanks,T-64BV,261,50,['captured'],https://i.postimg.cc/6359v7WL/2010-T-64-BV-capt-28-03-22.jpg,_bebe5f0e9ee373610bbf,04/12/2022
+13265,UA,['the Soviet Union'],Tanks,T-64BV,261,51,['captured'],https://i.postimg.cc/vBKh2yVG/2016-t64bv-capt-04-02-23.jpg,_b34a34aedafa46a9d161,12/02/2023
+13266,UA,['the Soviet Union'],Tanks,T-64BV,261,52,"['damaged', 'captured']",https://i.postimg.cc/2yzx54QH/5542.png,_f319d4e9e3d1fc674104,11/04/2023
+13337,UA,['Ukraine'],Tanks,T-64BV Zr. 2017,86,15,['captured'],https://i.postimg.cc/NFdzWLQW/f8.png,_a81b0643a01ec7a5c5d6,06/08/2022
+13338,UA,['Ukraine'],Tanks,T-64BV Zr. 2017,86,16,['captured'],https://i.postimg.cc/W1gbLLYr/2009-T-64-BV-Zr-2017-capt-23-03-22.jpg,_b6efdc557d4a0567d838,04/12/2022
+13349,UA,['Ukraine'],Tanks,T-64BV Zr. 2017,86,27,['captured'],https://i.postimg.cc/TwLT9zbp/2040-T-64-BV-Zr-2017-capt-05-05-22.jpg,_167fa521fa6c4265cc86,04/12/2022
+13350,UA,['Ukraine'],Tanks,T-64BV Zr. 2017,86,28,['captured'],https://i.postimg.cc/QMnXc8H2/2041-T-64-BV-Zr-2017-capt-08-09-22.jpg,_cc0c9e3e5a35a87d7238,04/12/2022
+13373,UA,['Ukraine'],Tanks,T-64BM 'Bulat',17,3,['captured'],https://i.postimg.cc/tJbw1Xvk/2001.jpg,_96851536fc4eb48204c3,23/07/2022
+13374,UA,['Ukraine'],Tanks,T-64BM 'Bulat',17,4,['captured'],https://i.postimg.cc/zD2fTkRL/2002-T-64-BM-capt-Bulat-22-04-22.jpg,_296161908fd426a22596,04/12/2022
+13483,UA,['the Soviet Union'],Tanks,T-72AV,40,2,['captured'],https://twitter.com/RALee85/status/1558887657324875777,_34c692132a44e01f17c6,14/08/2022
+13484,UA,['the Soviet Union'],Tanks,T-72AV,40,3,['captured'],https://i.postimg.cc/TY5yXFcQ/2002-t72av.jpg,_43e8de2467d08e12c803,19/09/2022
+13485,UA,['the Soviet Union'],Tanks,T-72AV,40,4,"['damaged', 'captured']",https://i.postimg.cc/Kc34cjCw/432.png,_d99cec2b0642f8a39d2a,19/10/2022
+13486,UA,['the Soviet Union'],Tanks,T-72AV,40,5,['captured'],https://i.postimg.cc/cCsQzKTv/2013-t72av-capt-09-10-22.jpg,_e556afd48452c6399124,31/12/2022
+13487,UA,['the Soviet Union'],Tanks,T-72AV,40,6,"['damaged', 'captured']",https://twitter.com/UAWeapons/status/1633907229647618048,_a792e8f270094860a9ec,10/03/2023
+13488,UA,['the Soviet Union'],Tanks,T-72AV,40,7,['captured'],https://i.postimg.cc/1XtS8Pkz/2007-t72av-capt-08-07-23.jpg,_1fd5e1e360817e3c5f25,11/07/2023
+13489,UA,['the Soviet Union'],Tanks,T-72AV,40,8,['captured'],https://i.postimg.cc/vTQqJ4TV/2010-T-72-AV-capt-01-08-23.jpg,_cd48c210b6932acba691,23/08/2023
+13530,UA,['the Soviet Union'],Tanks,T-72B,41,7,['captured'],https://i.postimg.cc/7hzPs6Kz/45h.png,_171415618b06548dbe9d,16/10/2022
+13569,UA,['Ukraine'],Tanks,Unknown T-72,17,15,['destroyed'],https://i.postimg.cc/bJGMsw2L/223.png,_59f1e537e0cb488646c9,20/09/2023
+13570,UA,['Ukraine'],Tanks,Unknown T-72,17,16,['destroyed'],https://i.postimg.cc/TPMQB4dL/2015-unkn-T-72-destr-14-10-23.jpg,_0753a5fa75288399e5dc,21/10/2023
+13580,UA,['the Soviet Union'],Tanks,T-80BV,66,9,['destroyed'],https://postimg.cc/v1wL5C46,_a62dd61a1a4297501bce,16/10/2022
+13613,UA,['the Soviet Union'],Tanks,T-80BV,66,1,['abandoned'],https://twitter.com/UAWeapons/status/1572568028587626496,_54988483529657c49283,21/09/2022
+13614,UA,['the Soviet Union'],Tanks,T-80BV,66,2,"['damaged', 'abandoned']",https://i.postimg.cc/NM8WrWN5/2004-t80bv-dam-aband.jpg,_e27912bf28919228ee9e,27/10/2022
+13615,UA,['the Soviet Union'],Tanks,T-80BV,66,3,"['damaged', 'abandoned']",https://i.postimg.cc/cHV1NWQ2/2025-1x-t80bv-2x-Sisu-XA-185-aband-11-08-23.jpg,_20b004ee13ec929a203f,04/10/2023
+13623,UA,['the Soviet Union'],Tanks,T-80BV,66,8,['captured'],https://i.postimg.cc/G352G9YJ/580.png,_59a4116c129f0fb1381d,10/05/2022
+13624,UA,['the Soviet Union'],Tanks,T-80BV,66,9,['captured'],https://i.postimg.cc/zvh7qCq7/2105.jpg,_6bf44f31d1317e4aa071,20/07/2022
+13625,UA,['the Soviet Union'],Tanks,T-80BV,66,10,['captured'],https://postimg.cc/DJfV8xMx,_c4ae78a8b030893f8689,07/09/2022
+13626,UA,['the Soviet Union'],Tanks,T-80BV,66,11,['captured'],https://i.postimg.cc/Bvd6csGs/2002-t64bv.jpg,_90fa4eba82a77c2ea032,14/08/2022
+13627,UA,['the Soviet Union'],Tanks,T-80BV,66,12,['captured'],https://postimg.cc/S2VsBjb6,_2ed200ab09ec72b59a91,16/10/2022
+13628,UA,['the Soviet Union'],Tanks,T-80BV,66,13,['captured'],https://i.postimg.cc/26h3yR6d/4f3.png,_170a22d2c3102a8f25dc,17/10/2022
+13629,UA,['the Soviet Union'],Tanks,T-80BV,66,14,['captured'],https://i.postimg.cc/VN5wfxDD/2048-T-80-BV-capt-03-09-2022.jpg,_0945fd9d7833ad016d22,04/12/2022
+13640,UA,['Germany'],Tanks,Leopard 2A4,13,1,"['damaged', 'abandoned']",https://i.postimg.cc/MHLmR61X/2001-BTR4-destr-m113-ypr-and-leo2a4-dam-aband-01-11-23.,_d9a497096b58d3f50f02,05/11/2023
+13690,UA,['Ukraine'],Tanks,Unknown tank,39,36,['destroyed'],https://i.postimg.cc/SNL67b6r/236.png,_102ec2f7b88596c472dc,20/09/2023
+13691,UA,['Ukraine'],Tanks,Unknown tank,39,37,['destroyed'],https://i.postimg.cc/131rKRrr/2006-Unknown-tank-destr-27-09-23.jpg,_49e3205969b627bb8ae1,11/10/2023
+13692,UA,['Ukraine'],Tanks,Unknown tank,39,38,['destroyed'],https://i.postimg.cc/C1w7xnfw/2021-unkn-tank-destr-21-10-23.jpg,_70bd7f3b763e7afac06a,21/10/2023
+13719,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,22,['destroyed'],https://i.postimg.cc/Rq5XfMmc/2002-BRM-1-K-bmp1-and-t72ea-destr-27-07-23.jpg,_7e778fa441bda3f0c857,31/07/2023
+13720,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,23,['destroyed'],https://i.postimg.cc/k4yT8r4Z/2003-BRM-1-K-destr-27-07-23.jpg,_e4a69f1c61281c0adf61,31/07/2023
+13721,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,24,['destroyed'],https://i.postimg.cc/Hsr8XQHY/1000-bmp2.jpg,_49353d06bdaa67531b63,05/09/2022
+13722,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,25,['destroyed'],https://i.postimg.cc/d1GX9MQ4/32d.png,_4683e4aadcd02d867ce0,29/08/2023
+13723,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,26,['destroyed'],https://i.postimg.cc/SR2nPG5T/32d3.png,_193059cc963c518e0c20,29/08/2023
+13724,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,27,['destroyed'],https://i.postimg.cc/NjLXjn4H/76g.png,_46561e4b5faf36864bdd,12/09/2023
+13725,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,28,['destroyed'],https://i.postimg.cc/5tN20khN/2012-brm1k-destr-31-08-23.jpg,_9b21aa7610c4d84d63fc,05/10/2023
+13726,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRM-1(K) reconnaissance vehicle,46,29,['destroyed'],https://i.postimg.cc/gJ95qHBd/2010-brm1k-destr-15-10-23.jpg,_1e822683446db5446fc7,21/10/2023
+13751,UA,['the Soviet Union'],Armoured Fighting Vehicles,BRDM-2,64,8,['destroyed'],https://i.postimg.cc/wM4r5VgP/c9.png,_2fda295e3623f94f41d5,23/07/2022
+13906,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,38,['destroyed'],https://i.postimg.cc/bvjDCHZ5/2009-MT-LB-with-ZU-23-AA-gun-destr-14-05-23.jpg,_b1fdfef7a0f1a5a17d80,22/05/2023
+13907,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,39,['destroyed'],https://i.postimg.cc/qqYg88fj/2018-mtlb-destr-30-11-22.png,_776cada790a0e52ad07d,22/05/2023
+13908,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,40,['destroyed'],https://i.postimg.cc/8knFQVFM/2019-mtlb-destr-30-11-22.png,_87b2a60f8c7cb5d82ad6,22/05/2023
+13909,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,41,['destroyed'],https://i.postimg.cc/rmVdcVCC/2040-mtlb-destr-11-05-23.jpg,_eed8b0996ca9ebd6e78d,22/05/2023
+13910,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,42,['destroyed'],https://i.postimg.cc/BbthYRR6/2004-mtlb-destr-19-05-23.jpg,_736a5dbc2f5c1083569c,29/05/2023
+13911,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,43,['destroyed'],https://i.postimg.cc/WprbsRYr/2007-MT-LB-destr-11-03-22.jpg,_0762ef0c7a93b5db3ef5,27/07/2023
+13912,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,44,['destroyed'],https://i.postimg.cc/Z54nwskm/2420.png,_6aaba6e9098e511c3f73,18/09/2023
+13913,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,45,['destroyed'],https://i.postimg.cc/xTQMBdDC/32.png,_5e077098086678f4fb39,25/09/2023
+13915,UA,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,63,1,['abandoned'],https://i.postimg.cc/D00sLq8C/Screenshot-8261.png,_c2578f2c37b0319b98c8,27/02/2022
+13977,UA,['Ukraine'],Armoured Fighting Vehicles,Unknown AFV,58,9,['destroyed'],https://twitter.com/UAWeapons/status/1519769346624704514,_4cc561c283b264c10a81,28/04/2022
+14019,UA,['Ukraine'],Armoured Fighting Vehicles,Unknown AFV,58,51,['destroyed'],https://i.postimg.cc/cL77ZFnf/5422.png,_60b24bb8b3f53837279c,12/09/2023
+14044,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,18,['destroyed'],https://i.postimg.cc/HksBZv63/769.png,_cb0615a98f96f326248b,11/04/2022
+14173,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,148,['destroyed'],https://i.postimg.cc/nz629qZt/2010-bmp1-destr-25-10-22.jpg,_4ba2aaa6d2447df4fc49,11/01/2023
+14239,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,214,['destroyed'],https://i.postimg.cc/QCVD27Xr/2036-BMP-1-P-destr-09-07-23.jpg,_63c1361e770d8de5da09,23/07/2023
+14266,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,241,['destroyed'],https://i.postimg.cc/Bv33jrYM/446y.png,_dc6edda682c9b0730b00,29/08/2023
+14373,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,47,"['damaged', 'captured']",https://twitter.com/UAWeapons/status/1658807110367313920,_3f3661a45918a5d2ccb3,21/05/2023
+14374,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,48,['captured'],https://i.postimg.cc/Hj1HTgvK/2031-bmp1-capt-29-05-23.jpg,_48cdd214dabab2797894,03/06/2023
+14375,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),349,49,['captured'],https://i.postimg.cc/mgTZ7444/2002-bmp1-capt-31-07-23.jpg,_31313f80b1274d6f175e,14/08/2023
+14378,UA,['Ukraine'],Infantry Fighting Vehicles,BMP-1U Shkval,2,2,['captured'],https://twitter.com/naalsio26/status/1700546121746067960,_f82b24b3ac27edbd9208,10/09/2023
+14404,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,8,['destroyed'],https://twitter.com/UAWeapons/status/1523007832064503809,_e9c1c8a47f489b0337ec,07/05/2022
+14462,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,66,['destroyed'],https://i.postimg.cc/DyL5mXZY/2001-bmp2-destr-25-01-23.jpg,_e1a3755dc776b9e00858,25/01/2023
+14534,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,1,['damaged'],https://i.postimg.cc/cJfZ5HRh/547.jpg,_9d2072da84b193892f3c,21/03/2022
+14535,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,2,['damaged'],https://i.postimg.cc/tCKrkSkq/2001-bmp2-dam-19-05-23.jpg,_f9889605305e7398e801,29/05/2023
+14536,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,3,['damaged'],https://i.postimg.cc/FspCR7hB/1021-bmp2-dam-29-06-23.jpg,_c19c91502bcadeda3c12,03/07/2023
+14537,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,4,['damaged'],https://i.postimg.cc/5NzndC40/2007-BMP-2-dam-13-07-23.jpg,_12d7fdfdbd232a9841ef,21/07/2023
+14538,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,5,['damaged'],https://i.postimg.cc/HxjtZ9p5/2035-bmp2-dam-17-08-23.jpg,_76e7491248cd89426588,17/08/2023
+14551,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,13,['abandoned'],https://i.postimg.cc/QCvkqN0n/4313.png,_2b6094822fb8f8138cfd,28/09/2023
+14552,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,14,"['damaged', 'abandoned']",https://i.postimg.cc/jj25nTyn/321.png,_7a0f1a92a88cb1dc9c2e,28/09/2023
+14553,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,15,"['damaged', 'abandoned']",https://i.postimg.cc/rFYj2FsQ/2008-bmp2-dam-aband-26-09-23.jpg,_256807371f051eff09a9,04/10/2023
+14580,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,3,['destroyed'],https://i.postimg.cc/2SFhvb7B/2005-unkn-bmp.jpg,_f6f3374d0b07f2376fd6,30/08/2022
+14596,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,19,['destroyed'],https://i.postimg.cc/J4WWjNtc/2038-unkn-bmp12-destr-12-06-23.jpg,_ae6e91a2b0104f28e930,14/06/2023
+14597,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,20,['destroyed'],https://i.postimg.cc/Cx13rjng/2016-unkn-bmp-destr-17-06-23.jpg,_8b98365eb5122fe4539d,18/06/2023
+14599,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,22,['destroyed'],https://i.postimg.cc/TYrJPY4j/2027-2x-unkn-bmp-destr-08-06-23.jpg,_1e5afdd25036512bf5ac,21/06/2023
+14600,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,23,['destroyed'],https://i.postimg.cc/Tw6LBnw4/2013-unkn-bmp-dam-18-06-23.jpg,_976c7cdb87a00e300607,27/06/2023
+14601,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,24,['destroyed'],https://i.postimg.cc/CKYgFXF7/2041-unkn-bmp-destr-22-07-23.jpg,_80d477999c22f17e7a07,23/07/2023
+14602,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,25,['destroyed'],https://i.postimg.cc/Xv1XW6wq/2002-2x-BMP-1s-BMP-2-BMP-1-2-T-64-BV-Zr-2017-T-72-AV-Unkn-Vehicle-destr-31-07-23.jpg,_527e32b6e4c8c3c9c82d,03/08/2023
+14603,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,26,['destroyed'],https://i.postimg.cc/W34jWbKX/24t.png,_cfac97fb5ef5446029ff,29/08/2023
+14604,UA,['the Soviet Union'],Infantry Fighting Vehicles,Unknown BMP-1/2,28,27,['destroyed'],https://i.postimg.cc/tCcVXVTc/431.png,_52fe093bc3abe4951677,20/09/2023
+14643,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,29,['destroyed'],https://i.postimg.cc/GpYbmn78/2002-M2-A2-Bradley-ODS-SA-destr-05-10-23.jpg,_7748d1416af0a08e5a66,08/10/2023
+14654,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,11,['damaged'],https://i.postimg.cc/3JDvN8Kj/2007-bradley-dam-13-07-23.jpg,_f744185c6e2e3e2c1929,13/07/2023
+14660,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,17,['damaged'],https://i.postimg.cc/vT1RqdzY/2051-bradley-dam-23-07-23.jpg,_bb609a45bf2ce62fc394,23/07/2023
+14661,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,18,['damaged'],https://i.postimg.cc/hvNkN3y9/2052-bradley-dam-23-07-23.jpg,_a07edecaf05d03e17964,23/07/2023
+14662,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,19,['damaged'],https://i.postimg.cc/ryb2dKVK/2053-bradley-dam-23-07-23.jpg,_0faafe5efcfa438a7a1c,23/07/2023
+14663,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,20,['damaged'],https://i.postimg.cc/8z3YWMtR/2001-bradley-dam-25-07-23.jpg,_58911e2fcd3daa6a4ca3,25/07/2023
+14756,UA,['Ukraine'],Infantry Fighting Vehicles,BTR-4,91,38,['destroyed'],https://i.postimg.cc/Y0qTyKX9/2002-btr4e-destr-02-01-23.jpg,_6c26e290cdb8acc747ca,03/01/2023
+14792,UA,['Ukraine'],Infantry Fighting Vehicles,BTR-4,91,8,['captured'],https://i.postimg.cc/sx8Mcqch/47.png,_da6bd8d16929b86552fd,21/03/2022
+14806,UA,['Ukraine'],Infantry Fighting Vehicles,BTR-4,91,22,['captured'],https://i.postimg.cc/GhL7wn9g/2305-btr4-capt-19-08-22.png,_abeb85e8ad405b8a32d7,10/06/2023
+14809,UA,['Poland'],Infantry Fighting Vehicles,KTO Rosomak,5,1,['abandoned'],https://i.postimg.cc/h4Tn8QJg/5422.png,_2577649ef66174ed2f87,28/09/2023
+14815,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,6,['destroyed'],https://i.postimg.cc/CMQ98VXQ/4332.png,_d95ef0343361d091636e,22/10/2022
+14816,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,7,['destroyed'],https://i.postimg.cc/2yYDFbFP/2015-btr60-destr-17-11-22.jpg,_83087e2e25bc9811016b,11/01/2023
+14817,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,8,['destroyed'],https://i.postimg.cc/nhR3zt8L/2002-BTR-60-destr-15-03-23.jpg,_d0a32add55f2015c10bd,15/03/2023
+14818,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,9,['destroyed'],https://i.postimg.cc/vBYBZhWb/2007-BTR-60-PB-destr-30-11-22.jpg,_88a54ad895f6183da3dd,01/05/2023
+14819,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,10,['destroyed'],https://i.postimg.cc/D0RssvkR/2026-btr60-destr-24-04-23.jpg,_fcdee402fff142685bd6,10/05/2023
+14820,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,11,['destroyed'],https://i.postimg.cc/85TsfHWg/2002-BTR-60-PB-destr-20-06-23.jpg,_9b6cf5702fc873d7eb26,03/07/2023
+14821,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,12,['destroyed'],https://i.postimg.cc/8zGbZbH5/2020-BTR-60-PB-destr-31-05-22.jpg,_7e1e70d6e713c667135d,09/07/2023
+14822,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,13,['destroyed'],https://i.postimg.cc/hGvLmHJf/320.png,_d6c34f6cd5cd091a6277,02/09/2023
+14823,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,14,['destroyed'],https://i.postimg.cc/MT11h5Hk/3368.png,_18a255841247497e5bff,07/09/2023
+14824,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-60PB,23,15,['destroyed'],https://i.postimg.cc/7PCPrW7P/2026-BTR-60-PB-destr-31-08-23.jpg,_0013c677d2f7a936ba79,05/11/2023
+14965,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,109,1,['damaged'],https://postimg.cc/67NyqCSj,_0773117e0a139195375c,08/08/2022
+14966,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,109,2,['damaged'],https://i.postimg.cc/pXHTB6yg/2011-BTR-80-dam-19-07-23.jpg,_95d4baa8f7d9c9a30d15,24/07/2023
+14968,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,109,1,"['damaged', 'captured']",https://postimg.cc/NK7P45WT,_43cb7ce61e59b2e2a030,19/04/2022
+15003,UA,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,109,36,['captured'],https://i.postimg.cc/HnrNbgLK/653.png,_8551927efd5c7770757e,13/09/2023
+15012,UA,['Ukraine'],Armoured Personnel Carriers,Unknown BTR,4,1,['abandoned'],https://i.postimg.cc/524HCBT8/b1.png,_e871c846f02248e214cd,27/02/2022
+15034,UA,['the Netherlands'],Armoured Personnel Carriers,YPR-765,55,22,['destroyed'],https://i.postimg.cc/6p6pt5rM/2030-YPR-765-destr-22-06-23.jpg,_7495a64460eda7d8bf57,27/06/2023
+15047,UA,['the Netherlands'],Armoured Personnel Carriers,YPR-765,55,35,['destroyed'],https://i.postimg.cc/fTHtgp4T/2002-ypr765-destr-10-10-23.jpg,_5436742691649faf18a3,25/10/2023
+15205,UA,['the United Kingdom'],Mine-Resistant Ambush Protected ,Mastiff Protected Patrol,30,3,['damaged'],https://i.postimg.cc/RVxGqtcz/2004-Mastiff-PVV-dam-28-06-23.jpg,_5e7bd3561519711de340,30/06/2023
+15206,UA,['the United Kingdom'],Mine-Resistant Ambush Protected ,Mastiff Protected Patrol,30,4,['damaged'],https://i.postimg.cc/mgVCb1hv/2006-Mastiff-Protected-Patrol-dam-15-08-23.jpg,_a98005828293397c34fa,20/08/2023
+15207,UA,['the United Kingdom'],Mine-Resistant Ambush Protected ,Mastiff Protected Patrol,30,5,['damaged'],https://i.postimg.cc/ZqR30YdC/2007-Mastiff-Protected-Patrol-dam-17-07-23.jpg,_3745b60bbf8cc3cbf02a,20/08/2023
+15208,UA,['the United Kingdom'],Mine-Resistant Ambush Protected ,Mastiff Protected Patrol,30,6,['damaged'],https://i.postimg.cc/25KWWpQT/2008-Mastiff-Protected-Patrol-dam-17-07-23.jpg,_1d443ec888f08216552a,20/08/2023
+15296,UA,['the United States'],Mine-Resistant Ambush Protected ,International M1224 MaxxPro,70,6,"['damaged', 'abandoned']",https://i.postimg.cc/bJFrxzjz/2010-Maxpro-dam-aband-11-10-23.jpg,_fed8bf49717ddce3d8a9,18/10/2023
+15350,UA,['Turkey'],Mine-Resistant Ambush Protected ,BMC Kirpi,27,3,"['damaged', 'abandoned']",https://i.postimg.cc/N0gbF1Tz/2003-bmc-kirpi-dam-aband-02-08-23.jpg,_171a2938c9d1f93482f4,03/08/2023
+15351,UA,['Turkey'],Mine-Resistant Ambush Protected ,BMC Kirpi,27,4,"['damaged', 'abandoned']",https://i.postimg.cc/t49FQNRd/2016-BMC-Kirpi-dam-aband-16-08-23.jpg,_e0315f0110ede37c37b7,20/08/2023
+15352,UA,['Turkey'],Mine-Resistant Ambush Protected ,BMC Kirpi,27,5,"['damaged', 'abandoned']",https://i.postimg.cc/KjhY9gXB/32e2.png,_9e64ab298ab10f3c4398,29/08/2023
+15357,UA,['Ukraine'],Infantry Mobility Vehicles,KrAZ Cobra,15,3,['destroyed'],https://twitter.com/UAWeapons/status/1578487903046406145,_3ac1e020f74adb3e84af,07/10/2022
+15358,UA,['Ukraine'],Infantry Mobility Vehicles,KrAZ Cobra,15,4,['destroyed'],https://i.postimg.cc/RhmVZP3h/2116-Kr-AZ-Cobra-destr-30-06-22.jpg,_678f806d5ba3bce63332,04/12/2022
+15359,UA,['Ukraine'],Infantry Mobility Vehicles,KrAZ Cobra,15,5,['destroyed'],https://i.postimg.cc/Kj5cknLN/2117-Kr-AZ-Cobra-destr-30-06-22.jpg,_2256fffcf93933d160ee,04/12/2022
+15360,UA,['Ukraine'],Infantry Mobility Vehicles,KrAZ Cobra,15,6,['destroyed'],https://i.postimg.cc/4NLdDwVF/2014-cobra-destr-23-05-23.jpg,_5000ea6b1ed17c313e59,23/05/2023
+15361,UA,['Ukraine'],Infantry Mobility Vehicles,KrAZ Cobra,15,7,['destroyed'],https://i.postimg.cc/yNQYSyKh/2019-Kr-AZ-Cobra-destr-14-10-22.jpg,_977e92d4b001b9d35215,05/10/2023
+15362,UA,['Ukraine'],Infantry Mobility Vehicles,KrAZ Cobra,15,8,['destroyed'],https://i.postimg.cc/FHpQBdZJ/2005-Kr-AZ-Cobra-destr-05-10-23.jpg,_353656dd35a0a8324f85,11/10/2023
+15407,UA,['Ukraine'],Infantry Mobility Vehicles,Varta,38,4,['destroyed'],https://i.postimg.cc/tRDKr2Q8/2001-Varta-IMV-1x-destroyed.jpg,_faeb3cf52b89025667f3,16/10/2022
+15414,UA,['Ukraine'],Infantry Mobility Vehicles,Varta,38,11,['destroyed'],https://i.postimg.cc/Pf6v3yY7/431.png,_717fdeb5b6061549b981,21/09/2023
+15463,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,22,['destroyed'],https://i.postimg.cc/HW3fs3ZB/2007-kozak2-destr.jpg,_9415d6c380fb97affc30,02/11/2022
+15464,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,23,['destroyed'],https://i.postimg.cc/NFjZh6z9/6898.png,_7130d5a425a3986e7fea,01/12/2022
+15480,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,39,['destroyed'],https://i.postimg.cc/vmwpR9zj/327.png,_48e1252c12ff60e72976,25/09/2023
+15481,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,40,['destroyed'],https://i.postimg.cc/y8kgqjBh/2008-Kozak-2-destr-17-10-23.jpg,_d8fae859dacde1294c77,25/10/2023
+15482,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,1,"['damaged', 'abandoned']",https://i.postimg.cc/vH1LW595/2003-kozak2-dam-aband-29-12-22.jpg,_eefd99f4b178b0f6c078,21/01/2023
+15488,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,6,['captured'],https://i.postimg.cc/T2tH9nND/47.png,_72854557a8bc822c9135,13/04/2022
+15501,UA,['Ukraine'],Infantry Mobility Vehicles,Kozak-2,61,19,['captured'],https://i.postimg.cc/xC6W8zKw/544.png,_0cd5c3db42a347cf82a8,16/04/2023
+15593,UA,['the United States'],Infantry Mobility Vehicles,M1114 and M1151 HMMWV,85,52,['destroyed'],https://i.postimg.cc/ncD3PVp0/2006-HMMWV-destr-01-08-23.jpg,_25e303a3cfa62c8c7814,03/08/2023
+15683,UA,['the United Kingdom'],Infantry Mobility Vehicles,AT105A Saxon,13,5,['captured'],https://twitter.com/UAWeapons/status/1545899359132389377,_a0f3a366bdc30a6668f3,11/07/2022
+15687,UA,['the United Kingdom'],Infantry Mobility Vehicles,AT105A Saxon,13,9,['captured'],https://i.postimg.cc/T2CzjmpM/2000-saxon-capt-22-01-23.jpg,_e54b1cd6d0a683775866,23/01/2023
+15797,UA,['the Soviet Union'],Engineering Vehicles And Equipment ,BTS-4A armoured recovery vehicle,9,5,['destroyed'],https://i.postimg.cc/g2GYSTkq/2030-BTS-4-ARV-destr-29-09-23.jpg,_b0ea2869fea18cbf8e04,05/10/2023
+15824,UA,['Ukraine'],Engineering Vehicles And Equipment ,TMM-3M1 bridge layer,3,1,['destroyed'],https://i.postimg.cc/Y2yLc6X1/2011-TMM-3-bridge-layer-destr-08-06-22.jpg,_6d21e01f50e1d71074b6,19/01/2023
+16325,UA,['the Soviet Union'],Multiple Rocket Launchers,122mm BM-21 Grad,38,19,['destroyed'],https://i.postimg.cc/FsRJ8QVC/2001-bm21-grad-destr-31-01-23.jpg,_2a8f85ebba501b8a1eed,03/02/2023
+16496,UA,['the Soviet Union'],Surface-To-Air Missile Systems ,Launcher for S-300,3,3,['destroyed'],https://i.postimg.cc/gjrwXj0X/2020-Launcher-for-S-300-destr-08-07-22.jpg,_b2fb28785da326803a8e,19/01/2023
+16584,UA,['the Soviet Union'],Aircraft,MiG-29 fighter aircraft,25,2,['destroyed'],https://i.postimg.cc/VkzvHPwD/2300-mig29-08-08-22.jpg,_c5069c459c1bb8f3fc1b,25/02/2023
+16587,UA,['the Soviet Union'],Aircraft,MiG-29 fighter aircraft,25,5,['destroyed'],https://i.postimg.cc/LsbV0JrJ/224.png,_35b6011189d9c309a0f6,09/09/2022
+16604,UA,['the Soviet Union'],Aircraft,MiG-29 fighter aircraft,25,22,['destroyedontheground'],https://i.postimg.cc/fRgL7VPw/2003-mig29-destr-30-09-23.jpg,_7b9ee3a10d418af954d4,05/11/2023
+16605,UA,['the Soviet Union'],Aircraft,MiG-29 fighter aircraft,25,23,['destroyedontheground'],https://i.postimg.cc/52tyFBn7/2004-mig29-destr-30-09-23.jpg,_08c805c6973d679b257c,05/11/2023
+16608,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,2,['destroyed'],https://i.postimg.cc/zf2nkrpX/3325.png,_d81c742ff4f3d96f4849,09/08/2022
+16609,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,3,['destroyed'],https://i.postimg.cc/bN1TbkjC/46.png,_0d69eca95abefaaacd14,25/02/2022
+16610,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,4,['destroyed'],https://i.postimg.cc/dQWVLThg/326.png,_cb2e5f65b3d555e82ec8,05/04/2022
+16611,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,5,['destroyed'],https://i.postimg.cc/fR6S8HY7/4f.png,_d8350fdea912dcbe2ddb,06/06/2022
+16612,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,6,['destroyed'],https://i.postimg.cc/g2crXNnW/662.png,_599705e420f4d33e4ce8,09/09/2022
+16613,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,7,['destroyed'],https://i.postimg.cc/tgDL4PKN/6523.png,_1eb141056d0bd6fb08af,20/12/2022
+16614,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,8,['destroyed'],https://i.postimg.cc/yYYnJqkd/332o.png,_2f87ac22e548b9c71485,28/03/2023
+16615,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,9,['destroyed'],https://i.postimg.cc/g01tJpzN/3fp.png,_c34ee7ca0110ec5e5295,28/03/2023
+16616,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,10,['destroyed'],https://i.postimg.cc/43f8XSQt/2001-su27-destr-23-07-22.jpg,_7014147d20df63c590c5,23/04/2023
+16617,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,11,['destroyed'],https://i.postimg.cc/4xZP1SMM/2002-su27-destr-23-07-22.jpg,_1f55c168351204cbc7e2,23/04/2023
+16618,UA,['the Soviet Union'],Aircraft,Su-27 fighter aircraft,12,12,['destroyed'],https://i.postimg.cc/Ghnxcfc2/2003-su27-destr-13-03-22.jpg,_8cd321cdac564e8ba505,23/04/2023
+16629,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,11,['destroyed'],https://i.postimg.cc/BZhbRRp1/7762.png,_8ab35de88db4a30fc487,09/09/2022
+16630,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,12,['destroyed'],https://i.postimg.cc/2ym06SYn/229.png,_61582e8fc38364c0e4bb,01/10/2022
+16631,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,13,['destroyed'],https://twitter.com/UAWeapons/status/1571914761344012288,_e6ca4065478ff523ae3e,19/09/2022
+16632,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,14,['damagedbeyondeconomicalrepair'],https://twitter.com/UAWeapons/status/1506317219000721412,_d0ed2d114ce847804559,23/03/2022
+16633,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,15,['destroyed'],https://i.postimg.cc/qBF97szr/62.png,_1f193d3498cf51b9467c,02/11/2022
+16634,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,16,['destroyed'],https://i.postimg.cc/9F4PYCXX/2019-su25-destr-27-01-23.jpg,_20d2c73112104373612a,29/01/2023
+16635,UA,['the Soviet Union'],Aircraft,Su-25 close air support aircraft,23,17,['destroyed'],https://twitter.com/UAWeapons/status/1711843075998269528,_bd7e9f7f56448f26d6e9,11/10/2023
+16674,UA,['the Soviet Union'],Helicopters,Mi-8 transport helicopter,25,8,['destroyed'],https://i.postimg.cc/FsnJPVWy/2227.png,_dfa45a4da83a83226fd7,26/10/2022
+16690,UA,['the Soviet Union'],Helicopters,Mi-8 transport helicopter,25,24,['destroyed'],https://i.postimg.cc/y8GgrPfR/3270.png,_d34cafdfdede92ada8de,26/09/2023
+16946,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",KrAZ-255B,16,1,['destroyed'],https://i.postimg.cc/ZqGVW10V/2031-Kr-AZ-255-B-destr-03-06-23.jpg,_e7ad58494aeee824431d,08/06/2023
+16958,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",KrAZ-255B,16,13,['destroyed'],https://i.postimg.cc/fTM2FsNZ/327.png,_fe727908c7d624f7cbc0,12/09/2023
+17009,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",KrAZ-6322 Raptor,9,1,['destroyed'],https://i.postimg.cc/kgJPxDg1/2022-06-25-UA-Kr-AZ-6322-destroyed.jpg,_0c0f468bce4bacfcc54d,04/12/2022
+17010,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",KrAZ-6322 Raptor,9,2,['destroyed'],https://i.postimg.cc/fTjhtYDS/2022-07-09-UA-Kr-AZ-6322-destroyed.jpg,_9bdbe2163e77dae7108d,04/12/2022
+17011,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",KrAZ-6322 Raptor,9,3,['destroyed'],https://i.postimg.cc/285nK3Pj/2000-Bogdan-63172-Kozak-destr.jpg,_00e6b8f6f2845b0b84a6,29/11/2022
+17061,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Bogdan-5316,9,7,['destroyed'],https://i.postimg.cc/7hDsysm3/2003-Ma-Z-5316-destr.jpg,_5a2516bacc3d58b9edac,27/12/2022
+17062,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Bogdan-5316,9,8,['destroyed'],https://i.postimg.cc/cC2ZgbyT/16.png,_05434fdf1bb74f87cdc2,24/03/2023
+17098,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",9T217 transloader (for 9K33 Osa),4,2,['destroyed'],https://i.postimg.cc/Fsftzq6V/3116.png,_86ebf92c94d74ee09163,23/07/2022
+17099,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",9T217 transloader (for 9K33 Osa),4,3,['destroyed'],https://i.postimg.cc/D0nQ5hY6/2001-osa-transloader-destr.jpg,_77df1f2ed6844b9ff7f1,12/12/2022
+17100,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",9T217 transloader (for 9K33 Osa),4,4,['destroyed'],https://i.postimg.cc/5NhHyxWy/2019-9-T217-transloader-for-9-K33-M3-OSA-AKM-destr-16-11-22.jpg,_fb9b1cbd37162ca98b42,19/01/2023
+17204,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",GAZ-66,109,24,['captured'],https://i.postimg.cc/R0vMzqRd/g544.png,_6312e67293afb88a4690,03/03/2022
+17237,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,150,12,['destroyed'],https://i.postimg.cc/W46c2YkQ/41.jpg,_a6edab6f15f10a904b1c,10/04/2022
+17316,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,150,91,['destroyed'],https://i.postimg.cc/nrmjF8wp/3360.png,_cfe4fabb6ab86f67820a,29/08/2023
+17325,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,150,100,['destroyed'],https://i.postimg.cc/FF6mJvZM/2005-Zi-L-131-destr-27-10-23.jpg,_36936602761278644f2c,31/10/2023
+17355,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,150,29,['captured'],https://i.postimg.cc/65Rmyxxy/5548.png,_317a9fa464296b5191fe,25/03/2022
+17374,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",ZiL-131,150,49,['captured'],https://i.postimg.cc/0NJk1TQ5/2027-Zi-L-131-capt-19-04-22.jpg,_aae8ac68cf61914034c6,24/07/2023
+17385,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",Ural-375D,10,1,['destroyed'],https://i.postimg.cc/wMdN04Dt/3378.png,_a2de385cee4c06f5383d,18/03/2022
+17386,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",Ural-375D,10,2,['destroyed'],https://i.postimg.cc/Cxn2nXFK/311.png,_78df6b90779b4709fd0f,17/04/2022
+17387,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",Ural-375D,10,3,['destroyed'],https://postimg.cc/zLGjfVk0,_819f297f0298c1130ef5,17/04/2022
+17497,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",MAZ-5337 fuel tanker,2,2,['destroyed'],https://i.postimg.cc/Y0cPV5Ly/ku2.png,_da20acff14045588898d,27/03/2022
+17598,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,1,['destroyed'],https://i.postimg.cc/zfsjQf9B/79.png,_8fc1a752b7961297cdd3,26/04/2022
+17606,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,9,['destroyed'],https://i.postimg.cc/sfPqrvYP/f22.png,_8e668a8de12fa9c2476f,21/06/2022
+17655,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,58,['destroyed'],https://i.postimg.cc/W3wTCZ3w/2004-unkn-truck-destr-06-03-23.jpg,_ff6ce5bc03f5b34f76e2,07/03/2023
+17656,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,59,['destroyed'],https://i.postimg.cc/YSK3kWPc/2014-unkn-truck-destr-14-05-23.jpg,_0028936beacaeeca7bdb,22/05/2023
+17657,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,60,['destroyed'],https://i.postimg.cc/J4WYJ5jj/2004-unkn-truck-destr-26-05-23.jpg,_9a93f69cb8ee02230bbf,27/05/2023
+17658,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,61,['destroyed'],https://i.postimg.cc/pV8RDPJV/2004-unkn-truck-with-Zu23-2-destr-05-07-23.jpg,_640d01c58bdfd10dbf84,08/07/2023
+17659,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,62,['destroyed'],https://i.postimg.cc/RCpCY8cX/8i.png,_8a8c77f106734ec21c2c,29/08/2023
+17660,UA,['Ukraine'],"Trucks, Vehicles, and Jeeps",Unknown truck,71,63,['destroyed'],https://i.postimg.cc/d0jcH5hy/542.png,_e7cf2d32189d6326b770,05/09/2023
+17716,RU,['Russia'],Tanks,T-72B3,354,220,['destroyed'],https://i.postimg.cc/C5vfhZRC/1033-t72b3-destr-08-11-23.jpg,_ef3193b38dd3fc360149,09/11/2023
+17717,RU,['Russia'],Tanks,T-72B3,354,221,['destroyed'],https://i.postimg.cc/Y9BLC0GR/1007-t72b3-destr-T80b-dam-aband-02-11-23.jpg,_4ec7bc907712c1fb131f,11/02/2023
+17720,RU,['Russia'],Tanks,Unknown T-72,148,103,['destroyed'],https://i.postimg.cc/0QXvsBkv/1014-2x-unknown-t72-destr-20-10-23.jpg,_2eb606792bbd50410c71,21/10/2023
+17721,RU,['Russia'],Tanks,Unknown T-72,148,105,['destroyed'],https://i.postimg.cc/MHcSKmHQ/1021-unkn-t72-destr-19-10-23.jpg,_50f30d8958199c827545,21/10/2023
+17722,RU,['Russia'],Tanks,Unknown T-72,148,106,['destroyed'],https://i.postimg.cc/wTzY9QVX/1009-unkn-t72-destr-23-10-23.jpg,_8d7f8b7e947d578dcd45,24/10/2023
+17723,RU,['Russia'],Tanks,Unknown T-72,148,107,['destroyed'],https://i.postimg.cc/BnPqJwzg/1035-unkn-t72-destr-21-10-23.jpg,_a4fe51adb35f478abfa7,25/10/2023
+17724,RU,['Russia'],Tanks,Unknown T-72,148,108,['destroyed'],https://i.postimg.cc/FsFwT9Sb/1031-unkn-T-72-destr-12-10-23.jpg,_fe65415bc0b17a16bc2e,28/10/2023
+17725,RU,['Russia'],Tanks,Unknown T-72,148,109,['destroyed'],https://i.postimg.cc/QCgmSv5g/1016-64-BV-and-72-destr-19-10-23.jpg,_da9a6c5e4baea2ea071e,19/10/2023
+17726,RU,['Russia'],Tanks,Unknown T-72,148,7,['abandoned'],https://i.postimg.cc/tCm7DKvx/1031-t80bv-aband-23-07-23.jpg,_47fc16a69dea15588ee3,20/08/2023
+17731,RU,['the Soviet Union'],Tanks,T-80BV,440,29,"['damaged', 'abandoned']",https://i.postimg.cc/9QsZwqJJ/1001-2x-t80bv-dam-aband-06-11-23.jpg,_bdb28e3889cafde47f88,09/11/2023
+17732,RU,['the Soviet Union'],Tanks,T-80BV,440,40,"['damaged', 'abandoned']",https://i.postimg.cc/9QsZwqJJ/1001-2x-t80bv-dam-aband-06-11-23.jpg,_0862526f20dbebe2a8d5,09/11/2023
+17739,RU,['Russia'],Tanks,Unknown T-80,11,1,"['damaged', 'abandoned']",https://i.postimg.cc/c1RSYb7Q/1005-16-10-23.jpg,_56ce6e617b46e9b83169,17/10/2023
+17741,RU,['Russia'],Tanks,Unknown tank,301,246,['destroyed'],https://i.postimg.cc/Wp5gB2Wx/1033-unkn-tank-destr-19-10-23.jpg,_ed6bc2fa5752a68c31ed,05/11/2023
+17743,RU,['Russia'],Tanks,Unknown tank,301,8,['abandoned'],https://i.postimg.cc/mrMMY2nR/1017-unkn-tank-aband-31-10-23.jpg,_cc1efcb8d2507498eb32,09/11/2023
+17761,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,71,"['damaged', 'abandoned']",https://i.postimg.cc/C5NLY96W/1037-2x-dam-aband-bmp2-1x-brem-1-aband-08-11-23.jpg,_6ad85be632c2b68260ec,09/11/2023
+17762,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,72,"['damaged', 'abandoned']",https://i.postimg.cc/C5NLY96W/1037-2x-dam-aband-bmp2-1x-brem-1-aband-08-11-23.jpg,_e32f49a956a932b0995b,09/11/2023
+17775,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,387,['destroyed'],https://i.postimg.cc/VsjJDV49/1023-BTR-82-A-M-destr-15-10-23.jpg,_18baead2eb6c9ba99a9b,09/11/2023
+17777,RU,['the Soviet Union'],Armoured Personnel Carriers,BTR-80,185,8,"['damaged', 'abandoned']",https://i.postimg.cc/sggTN8y2/1010-mtlb-destr-btr80-dam-aband-05-11-23.jpg,_26e0dda53ab871bb5d08,09/11/2023
+17780,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,BREM-1 armoured recovery vehicle,48,8,['abandoned'],https://i.postimg.cc/T2Vw72RT/1037-2x-dam-aband-bmp2-1x-brem-1-aband-08-11-23.jpg,_4276a2bdfc22e794e654,09/11/2023
+17790,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,642,['destroyed'],https://i.postimg.cc/GmnyBTgn/1024-Ural-4320-destr-04-11-23.jpg,_a2afb1546a7e75b2b6f0,09/11/2023
+17797,UA,['the Soviet Union'],Tanks,T-64BV,261,170,['destroyed'],https://i.postimg.cc/3w1WB5nd/2011-T-64-BV-destr-31-08-23.jpg,_f3240bb77fae503453f9,09/11/2023
+17812,UA,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),190,139,['destroyed'],https://i.postimg.cc/W4DK5JC8/2000-bmp2-destr-24-09-23.jpg,_02fe38ee0d7689869243,10/11/2023
+17815,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,21,['damaged'],https://i.postimg.cc/Qd9MRYhd/2002-bradley-dam-02-11-23.jpg,_308c629a5145e85d1af7,09/11/2023
+17816,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,22,['damaged'],https://i.postimg.cc/QtsxKX5F/2016-bradley-dam-08-11-23.jpg,_d20451cfbd76d66185b7,09/11/2023
+17817,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,7,"['damaged', 'abandoned']",https://twitter.com/RALee85/status/1720182958294757703,_641527b5c6b7a7c77e77,09/11/2023
+17818,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,8,"['damaged', 'abandoned']",https://twitter.com/RALee85/status/1720182958294757703,_4fb2014b41ff5d09caf7,09/11/2023
+17819,UA,['Ukraine'],Infantry Fighting Vehicles,BTR-4,91,57,['destroyed'],https://i.postimg.cc/Lsj8sqqd/2010-BTR-4-E-destr-05-11-23.jpg,_6f5bd6cb706f83c9e660,09/11/2023
+17829,UA,['the Soviet Union'],Aircraft,MiG-29 fighter aircraft,25,23,['destroyedontheground'],https://i.postimg.cc/9MhcsqKd/2004-mig29-destr-30-09-23.jpg,_a9ddc019e5702eabe96b,10/11/2023
+17838,UA,['the Soviet Union'],"Trucks, Vehicles, and Jeeps",GAZ-66,109,32,['captured'],https://i.postimg.cc/wBSHD9mX/2012-GAZ-66-capt-29-07-22.jpg,_dbd55120479d3dc05512,09/11/2023
+17847,RU,['the Soviet Union'],Tanks,T-72B,325,21,['abandoned'],https://i.postimg.cc/ydjpgsNf/1027-t72b-aband.jpg,_abee00f5d0d7c1b93317,
+17867,RU,['Russia'],Tanks,Unknown tank,301,15,['destroyed'],https://i.postimg.cc/L4vGhBYH/1019-unkn-tank-destr-31-10-23.jpg,_b04cd3ca2a8470357093,
+17868,RU,['Russia'],Tanks,Unknown tank,301,65,['destroyed'],https://i.postimg.cc/Wp5gB2Wx/1033-unkn-tank-destr-19-10-23.jpg,_4eee2ebbb1e29e3380fd,
+17871,RU,['Russia'],Tanks,Unknown tank,301,242,['destroyed'],https://i.postimg.cc/qMzDqfHL/1034-1x-t72b3-1x-t80bv-2x-unkn-tank-destr-1x-t80bv-aband-31-10-23.jpg,_be2af2f5aa36d8dafbc4,
+17873,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,347,['destroyed'],https://i.postimg.cc/Gt2k25cV/1013-mtlb-destr-12-11-23.jpg,_9b176bde3bd0ca932483,
+17874,RU,['the Soviet Union'],Armoured Fighting Vehicles,MT-LB,535,348,['destroyed'],https://i.postimg.cc/DZ7QVzR2/1026-MT-LB-destr-10-11-23.jpg,_5eaaf8d89940d9c8a354,
+17877,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-1(P),556,44,"['damaged', 'abandoned']",https://i.postimg.cc/RZ9c8R8k/1001-bmp1-dam-aband-10-11-23.jpg,_a0e6b6ed0fc377c56477,
+17878,RU,['Russia'],Infantry Fighting Vehicles,BMP-1AM,38,7,['abandoned'],https://twitter.com/Danspiun/status/1724039908635849028,_f432a2604a7f35cb4e44,
+17879,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,700,['destroyed'],https://i.postimg.cc/QMY1FrtD/1009-bmp2-destr-31-12-22.jpg,_7d4d224b3652add0a620,
+17880,RU,['the Soviet Union'],Infantry Fighting Vehicles,BMP-2(K),1044,701,['destroyed'],https://i.postimg.cc/XNRKK3g7/1010-1x-destr-2x-dam-aband-bmp2-11-11-23.jpg,_66f91d45f088af161331,
+17886,RU,['Russia'],Infantry Fighting Vehicles,BMP-3,301,202,['destroyed'],https://i.postimg.cc/fTQXtCwV/1037-bmp3-destr-08-11-23.jpg,_b4b51b3a3a24a9edf686,
+17888,RU,['Russia'],Infantry Fighting Vehicles,BTR-82A(M),554,264,['destroyed'],https://i.postimg.cc/qB3yvSdf/1025-BTR-82-A-destr-10-11-23.jpg,_58f1c3d744ffba108231,
+17894,RU,['Russia'],Armoured Personnel Carriers,Unknown BTR-80/BTR-82A,54,4,"['damaged', 'abandoned']",https://i.postimg.cc/2S03jFcL/1039-BTR-80-82-A-dam-aband-08-11-23.jpg,_39ddd30ed5691287a6d5,
+17898,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,IMR-2(M) combat engineering vehicle,33,13,['destroyed'],https://i.postimg.cc/TYh4HR88/1007-2x-Destroyed-IMR-2-12-11-23.jpg,_4ccdf15e786152f10286,
+17899,RU,['the Soviet Union'],Engineering Vehicles And Equipment ,IMR-2(M) combat engineering vehicle,33,14,['destroyed'],https://i.postimg.cc/TYh4HR88/1007-2x-Destroyed-IMR-2-12-11-23.jpg,_1f9232fac80a23927fa5,
+17911,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,643,['destroyed'],https://twitter.com/bayraktar_1love/status/1723050296195084436,_caffe8846dbd312df9cc,
+17912,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,644,['destroyed'],https://twitter.com/bayraktar_1love/status/1723050296195084436,_704087aebd4ff0ee7a8a,
+17913,RU,['Russia'],"Trucks, Vehicles, and Jeeps",Ural-4320,826,645,['destroyed'],https://i.postimg.cc/W4X2wNLD/1021-Ural-4320-36-with-S-60-destr-11-11-23.jpg,_883f583a3471a00efe9f,
+17923,UA,['Ukraine'],Tanks,T-64BV Zr. 2017,86,48,"['captured', 'laterdestroyed']",https://i.postimg.cc/VLSXhYZJ/2008-t64bv-2017-destr-17-05-23.jpg,_87d84753622b50a62419,
+17946,UA,['the United States'],Infantry Fighting Vehicles,M2A2 Bradley ODS-SA,60,30,['destroyed'],https://i.postimg.cc/Sxcsbf6h/2000-Bradley-destr-09-11-23.jpg,_03f3bd4314f69daf88d7,
+17953,UA,['the United States'],Mine-Resistant Ambush Protected ,International M1224 MaxxPro,70,7,"['damaged', 'abandoned']",https://i.postimg.cc/5NLYfJJT/2003-Maxx-Pro-dam-aband-12-11-23.jpg,_f455d33ec4b89f32d70e,

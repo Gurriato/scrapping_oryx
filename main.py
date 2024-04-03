@@ -15,7 +15,7 @@ def generate_short_hash(row):
     return "_"+str(hashlib.sha256(hash_input.encode()).hexdigest()[:20])
 
 
-def scrappingOryx(urlRU, urlUA):
+def scrappingOryx(urlLU, owner):
     """
     Scrapes equipment loss data from specified URLs and stores the data in a database and CSV files.
 
@@ -63,54 +63,38 @@ def scrappingOryx(urlRU, urlUA):
     column_order = ['owner', 'origen', 'weapon', 'platform', 'total', 'number', 'Status', 'url']
 
     # Russia scrap
-    scraped_object = tools.extract_lists_from_article(urlRU)
-    RU, total_RU = tools.trans_to_df(scraped_object)
-    RU['origen'] = RU['origen'].apply(tools.extr_country)
-    RU[['total', 'platform']] = RU['platform'].str.extract(r'(\d+)\s?([^:]+)', expand=True)
-    RU['owner'] = 'RU'
-    RU = RU[column_order]
-
-    # Ucrania scrap
-    scraped_object = tools.extract_lists_from_article(urlUA)
-    UA, total_UA = tools.trans_to_df(scraped_object)
-    UA['origen'] = UA['origen'].apply(tools.extr_country)
-    UA[['total', 'platform']] = UA['platform'].str.extract(r'(\d+)\s?([^:]+)', expand=True)
-    UA['owner'] = 'UA'
-    UA = UA[column_order]
+    scraped_object = tools.extract_lists_from_article(urlLU)
+    LU, total_LU = tools.trans_to_df(scraped_object)
+    LU['origen'] = LU['origen'].apply(tools.extr_country)
+    LU[['total', 'platform']] = LU['platform'].str.extract(r'(\d+)\s?([^:]+)', expand=True)
+    LU['owner'] = owner
+    LU = LU[column_order].reset_index(drop=True)
+    LU['url'] = LU['url'].apply(tools.clean_url)
 
     # concat and final cleaning
-    to_file = pd.concat([RU, UA])
-    to_file = to_file.reset_index(drop=True)
-    to_file['url'] = to_file['url'].apply(tools.clean_url)
+    # to_file = pd.concat([LU, UA])
+    # to_file = to_file.reset_index(drop=True)
+    LU['url'] = LU['url'].apply(tools.clean_url)
 
     # Memory
-    scraped_object, UA, RU = None, None, None
+    scraped_object = None
     gc.collect()
 
-    to_file['primary_key'] = to_file.apply(generate_short_hash, axis=1)
-    now = dt.datetime.now()
-    to_file.to_csv('./Data/scrap_raw/scrap_raw_' + str(now.date()) + '.csv')
+    LU['primary_key'] = LU.apply(generate_short_hash, axis=1)
+
+    # LU.to_csv('./Data/scrap_raw/scrap_raw_' + str(now.date()) + '.csv')
 
     # Transforming Totals
     regex = r"^(.+?)\s*\((\d+), of which( destroyed: (\d+))?(, damaged: (\d+))?(, abandoned: (\d+))?(, captured: (\d+))?\)$"
-    total_RU = pd.Series(total_RU)
-    total_RU = total_RU.str.extract(regex)
-    total_RU.columns = ['Type', 'Total', 'd1', 'Destroyed', 'd2', 'Damaged', 'd3', 'Abandoned', 'd4', 'Captured']
-    total_RU.drop(['d1', 'd2', 'd3', 'd4'], axis=1, inplace=True)
-    total_RU = total_RU[1:]
-    total_RU.fillna(0, inplace=True)
-    total_RU[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']] = total_RU[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']].astype(int)
-    total_RU.to_csv('./Data/scrap_Total_RU' + str(now.date()) + '.csv')
+    total_LU = pd.Series(total_LU)
+    total_LU = total_LU.str.extract(regex)
+    total_LU.columns = ['Type', 'Total', 'd1', 'Destroyed', 'd2', 'Damaged', 'd3', 'Abandoned', 'd4', 'Captured']
+    total_LU.drop(['d1', 'd2', 'd3', 'd4'], axis=1, inplace=True)
+    total_LU = total_LU[1:]
+    total_LU.fillna(0, inplace=True)
+    total_LU[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']] = total_LU[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']].astype(int)
 
-    total_UA = pd.Series(total_UA)
-    total_UA = total_UA.str.extract(regex)
-    total_UA.columns = ['Type', 'Total', 'd1', 'Destroyed', 'd2', 'Damaged', 'd3', 'Abandoned', 'd4', 'Captured']
-    total_UA.drop(['d1', 'd2', 'd3', 'd4'], axis=1, inplace=True)
-    total_UA = total_UA[1:]
-    total_UA.fillna(0, inplace=True)
-    total_UA[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']] = total_UA[['Total', 'Destroyed', 'Damaged', 'Abandoned', 'Captured']].astype(int)
-    total_UA.to_csv('./Data/scrap_Total_UA_' + str(now.date()) + '.csv')
-    return to_file, total_UA, total_RU
+    return LU, total_LU
 
 
 def dataReport():
@@ -172,31 +156,35 @@ def compare_dataframes(df_a, df_b, df_excepciones):
     return df_a_difference, df_b_difference
 
 
-def pushToDB(base, totalRU, totalUA):
+def pushToDB(data, table):
     with open('config.json', 'r') as config_file:
         config = json.load(config_file)
-
-    base['Status'] = base['Status'].astype(str)
-    base['origen'] = base['origen'].astype(str)
-    outcome = tools.insert_in_db(base, config['usuario'], config['pass'], config['host'], config['database'], 'bajas')
-    logging.info(outcome)
-    outcome = tools.insert_in_db(totalRU, config['usuario'], config['pass'], config['host'], config['database'], 'totals_RU')
-    logging.info(outcome)
-    outcome = tools.insert_in_db(total_UA, config['usuario'], config['pass'], config['host'], config['database'],
-                             'totals_UA')
-    logging.info(outcome)
+    try:
+        data['Status'] = data['Status'].astype(str)
+        data['origen'] = data['origen'].astype(str)
+    except:
+        pass
+    outcome = tools.insert_in_db(data, config['usuario'], config['pass'], config['host'], config['database'], table=table)
+    logging.info('insert in table ' + table + outcome)
 
 
 if __name__ == '__main__':
     logging.basicConfig(filename='./oryxScrapper.log', level=logging.INFO,
                         format='%(asctime)s:%(levelname)s:%(message)s')
+    now = dt.datetime.now()
     urlRU = 'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html'
     urlUA = 'https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-ukrainian.html'
-    to_file, total_UA, total_RU = scrappingOryx(urlRU,urlUA)
+    RU, total_RU = scrappingOryx(urlRU, 'RU')
+    total_RU.to_csv('./Data/scrap_Total_RU' + str(now.date()) + '.csv')
+    UA, total_UA = scrappingOryx(urlUA, 'UA')
+    total_UA.to_csv('./Data/scrap_Total_UA' + str(now.date()) + '.csv')
+    all = pd.concat([RU, UA]).reset_index(drop=True)
+    all.to_csv('./Data/scrap_raw/scrap_raw_' + str(now.date()) + '.csv')
+
     exceptions = pd.read_csv('./Data/exceptions.csv', sep=';')
     base = pd.read_csv('./Data/base.csv', sep=';', dtype={'total': int, 'number': int, 'primary_key': str})
     #base['primary_key'] = base.apply(generate_short_hash, axis=1)
-    df_results_base, df_results_new = compare_dataframes(base, to_file, exceptions)  #nuevas lineas a incluir
+    df_results_base, df_results_new = compare_dataframes(base, all, exceptions)  #nuevas lineas a incluir
     now = dt.datetime.now()
     if df_results_base.shape[0] != 0:
         df_results_base.to_csv('./Data/diff/excep_base_' + str(now.date()) + '.csv')
@@ -206,5 +194,7 @@ if __name__ == '__main__':
     # Use this line instead of next if you want to see the real count of Oryx
     #base['total_real'] = base.groupby(['owner', 'weapon', 'platform'])['owner'].transform('size')
     base['total'] = base.groupby(['owner', 'weapon', 'platform'])['owner'].transform('size')
-    pushToDB(to_file, total_UA, total_RU)
+    pushToDB(base, 'bajas')
+    pushToDB(total_RU, 'total_RU')
+    pushToDB(total_UA, 'total_UA')
     base.to_csv('./Data/base.csv', sep=';', index=False)
