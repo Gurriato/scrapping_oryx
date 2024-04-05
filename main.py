@@ -200,6 +200,7 @@ if __name__ == '__main__':
     pushToDB(base, 'bajas')
     pushToDB(total_RU, 'total_RU')
     pushToDB(total_UA, 'total_UA')
+    base['total'] = pd.to_numeric(base['total'], errors='coerce').fillna(0).astype(int)
     base.to_csv('./Data/base.csv', sep=';', index=False)
 
 
